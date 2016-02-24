@@ -1,2 +1,0 @@
-# banners
-html banners 
