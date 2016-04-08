@@ -13,7 +13,7 @@ lib.properties = {
 		{src:"images/body.png", id:"body"},
 		{src:"images/head.png", id:"head"},
 		{src:"images/image6.png", id:"image6"},
-		{src:"images/_interface.jpg", id:"_interface"},
+		{src:"images/interface.jpg", id:"_interface"},
 		{src:"images/tors.png", id:"tors"},
 		{src:"images/wdg.png", id:"wdg"}
 	]
