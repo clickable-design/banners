@@ -190,11 +190,11 @@ p.nominalBounds = new cjs.Rectangle(-66.6,-7.6,133.2,15.2);
 
 	// Слой 1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.rf(["rgba(0,0,0,0)","#000000"],[0.518,1],-35.1,-54.5,0,-35.1,-54.5,378.9).s().p("EAjTCFOUiH0gFDgoegN5UgofgN6AIvhOCUAIwhOAgFNghYUgFOghXB2ZgIEUB2XgIFAo2AM6UAo1AM5AQVA8BUAQVA7/gCxBBgUgCmA80h1RAAAQpCAApugXg");
+	this.shape.graphics.rf(["rgba(0,0,0,0)","rgba(0,0,0,0.749)"],[0.518,1],-30.9,-48,0,-30.9,-48,333.3).s().p("EAfDB1MUh3egEcgjngMOUgjngMPAHshEpUAHshEogEkgdWUgEmgdXBoKgHGUBoHgHGAj7ALWUAj7ALWAOXA0zUAOXA0xgCbA5oUgCRA1ghnKAAAQn+AAojgVg");
 
 	this.addChild(this.shape);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-1115.5,-854.9,2231.1,1710);
+p.nominalBounds = new cjs.Rectangle(-981.3,-752.1,1962.8,1504.3);
 
 
 (lib.Символ66 = function() {
@@ -800,7 +800,7 @@ p.nominalBounds = new cjs.Rectangle(-26.5,-26.5,53.1,53.1);
 
 	this.addChild(this.instance_3,this.instance_2,this.instance_1,this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-1086.8,-790.9,2231.1,1710);
+p.nominalBounds = new cjs.Rectangle(-952.6,-688.1,1962.8,1504.3);
 
 
 (lib.Символ55 = function() {
@@ -1512,7 +1512,9 @@ p.nominalBounds = new cjs.Rectangle(-211.6,-162.7,194.1,325.5);
 		this.cursor = "none";
 		this.movieClip_1.mouseEnabled = false;
 		this.addEventListener("tick", fl_CustomMouseCursor.bind(this));
+		
 		this.pric.alpha=0
+		
 		function fl_CustomMouseCursor() {
 			this.pric.x = stage.mouseX;
 			this.pric.y = stage.mouseY;
@@ -1520,14 +1522,14 @@ p.nominalBounds = new cjs.Rectangle(-211.6,-162.7,194.1,325.5);
 		
 		}
 		
-		document.addEventListener("mouseover", fl_Clickover.bind(this));
+		stage.canvas.addEventListener("mouseover", fl_Clickover.bind(this));
 		
 		function fl_Clickover()
 		{
 		this.pric.alpha=1
 		}
 		
-		document.addEventListener("mouseout", fl_Clickout.bind(this));
+		stage.canvas.addEventListener("mouseout", fl_Clickout.bind(this));
 		
 		function fl_Clickout()
 		{
@@ -1585,7 +1587,7 @@ p.nominalBounds = new cjs.Rectangle(-211.6,-162.7,194.1,325.5);
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-1516.7,-281.4,4891,1224.4);
+p.nominalBounds = new cjs.Rectangle(-1420.6,-207.7,4794.9,1077.2);
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{});
 var lib, images, createjs;
