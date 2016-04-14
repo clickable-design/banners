@@ -9,21 +9,21 @@ lib.properties = {
 	fps: 27,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/_8_03.png", id:"_8_03"},
-		{src:"images/_8_06.png", id:"_8_06"},
-		{src:"images/_8_09.png", id:"_8_09"},
-		{src:"images/_8_12.png", id:"_8_12"},
-		{src:"images/_8_15.png", id:"_8_15"},
-		{src:"images/_8_21.png", id:"_8_21"},
-		{src:"images/_8_23.png", id:"_8_23"},
-		{src:"images/_8_29.png", id:"_8_29"},
-		{src:"images/_8_30.png", id:"_8_30"},
-		{src:"images/_8_36.png", id:"_8_36"},
+		{src:"images/adfbc.png", id:"adfbc"},
+		{src:"images/adfbdf.png", id:"adfbdf"},
+		{src:"images/adfhg34.png", id:"adfhg34"},
+		{src:"images/adrgdfv.png", id:"adrgdfv"},
 		{src:"images/AndorKollar_Hands2_03.png", id:"AndorKollar_Hands2_03"},
 		{src:"images/AndorKollar_Hands2_07.png", id:"AndorKollar_Hands2_07"},
 		{src:"images/AndorKollar_Hands2_10.png", id:"AndorKollar_Hands2_10"},
+		{src:"images/dacxgre.png", id:"dacxgre"},
 		{src:"images/green.png", id:"green"},
-		{src:"images/WDF_2704101.jpg", id:"WDF_2704101"}
+		{src:"images/qerwt.png", id:"qerwt"},
+		{src:"images/sdfc.png", id:"sdfc"},
+		{src:"images/sdrgqerw.png", id:"sdrgqerw"},
+		{src:"images/sfgdhbc.png", id:"sfgdhbc"},
+		{src:"images/WDF_2704101.jpg", id:"WDF_2704101"},
+		{src:"images/wretvcbrt.png", id:"wretvcbrt"}
 	]
 };
 
@@ -33,64 +33,28 @@ lib.properties = {
 
 
 
-(lib._8_03 = function() {
-	this.initialize(img._8_03);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,458,373);
-
-
-(lib._8_06 = function() {
-	this.initialize(img._8_06);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,60,88);
-
-
-(lib._8_09 = function() {
-	this.initialize(img._8_09);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,128,47);
-
-
-(lib._8_12 = function() {
-	this.initialize(img._8_12);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,114,133);
-
-
-(lib._8_15 = function() {
-	this.initialize(img._8_15);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,20,17);
-
-
-(lib._8_21 = function() {
-	this.initialize(img._8_21);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,64,72);
-
-
-(lib._8_23 = function() {
-	this.initialize(img._8_23);
+(lib.adfbc = function() {
+	this.initialize(img.adfbc);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,144,57);
 
 
-(lib._8_29 = function() {
-	this.initialize(img._8_29);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,152,134);
-
-
-(lib._8_30 = function() {
-	this.initialize(img._8_30);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,88,124);
-
-
-(lib._8_36 = function() {
-	this.initialize(img._8_36);
+(lib.adfbdf = function() {
+	this.initialize(img.adfbdf);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,231,178);
+
+
+(lib.adfhg34 = function() {
+	this.initialize(img.adfhg34);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,20,17);
+
+
+(lib.adrgdfv = function() {
+	this.initialize(img.adrgdfv);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,88,124);
 
 
 (lib.AndorKollar_Hands2_03 = function() {
@@ -111,16 +75,52 @@ p.nominalBounds = new cjs.Rectangle(0,0,55,25);
 p.nominalBounds = new cjs.Rectangle(0,0,53,35);
 
 
+(lib.dacxgre = function() {
+	this.initialize(img.dacxgre);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,152,134);
+
+
 (lib.green = function() {
 	this.initialize(img.green);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,100,101);
 
 
+(lib.qerwt = function() {
+	this.initialize(img.qerwt);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,458,373);
+
+
+(lib.sdfc = function() {
+	this.initialize(img.sdfc);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,60,88);
+
+
+(lib.sdrgqerw = function() {
+	this.initialize(img.sdrgqerw);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,114,133);
+
+
+(lib.sfgdhbc = function() {
+	this.initialize(img.sfgdhbc);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,128,47);
+
+
 (lib.WDF_2704101 = function() {
 	this.initialize(img.WDF_2704101);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1048,400);
+
+
+(lib.wretvcbrt = function() {
+	this.initialize(img.wretvcbrt);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,64,72);
 
 
 (lib.Символ52 = function() {
@@ -163,7 +163,7 @@ p.nominalBounds = new cjs.Rectangle(-24.2,-24.8,48.3,49.8);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib._8_29();
+	this.instance = new lib.dacxgre();
 	this.instance.setTransform(-76,-67);
 
 	this.addChild(this.instance);
@@ -421,7 +421,7 @@ p.nominalBounds = new cjs.Rectangle(-229.6,-16.8,450.5,30.6);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib._8_30();
+	this.instance = new lib.adrgdfv();
 	this.instance.setTransform(-44,-62);
 
 	this.addChild(this.instance);
@@ -433,7 +433,7 @@ p.nominalBounds = new cjs.Rectangle(-44,-62,88,124);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib._8_03();
+	this.instance = new lib.qerwt();
 	this.instance.setTransform(-229,-186.5);
 
 	this.addChild(this.instance);
@@ -462,7 +462,7 @@ p.nominalBounds = new cjs.Rectangle(-524,-200,1048,400);
 	this.shape.setTransform(-1.1,15.2);
 
 	// Слой 1
-	this.instance = new lib._8_36();
+	this.instance = new lib.adfbdf();
 	this.instance.setTransform(-115.5,-89);
 
 	this.addChild(this.instance,this.shape);
@@ -474,7 +474,7 @@ p.nominalBounds = new cjs.Rectangle(-115.5,-89,231,178);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib._8_09();
+	this.instance = new lib.sfgdhbc();
 	this.instance.setTransform(-64,-23.5);
 
 	this.addChild(this.instance);
@@ -486,7 +486,7 @@ p.nominalBounds = new cjs.Rectangle(-64,-23.5,128,47);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib._8_23();
+	this.instance = new lib.adfbc();
 	this.instance.setTransform(-72,-28.5);
 
 	this.addChild(this.instance);
@@ -498,7 +498,7 @@ p.nominalBounds = new cjs.Rectangle(-72,-28.5,144,57);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib._8_06();
+	this.instance = new lib.sdfc();
 	this.instance.setTransform(-30,-44);
 
 	this.addChild(this.instance);
@@ -516,7 +516,7 @@ p.nominalBounds = new cjs.Rectangle(-30,-44,60,88);
 	mask.setTransform(40.4,-18.3);
 
 	// Слой 1
-	this.instance = new lib._8_12();
+	this.instance = new lib.sdrgqerw();
 	this.instance.setTransform(-57,-66.5);
 
 	this.instance.mask = mask;
@@ -530,7 +530,7 @@ p.nominalBounds = new cjs.Rectangle(-57,-66.5,114,123.7);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib._8_15();
+	this.instance = new lib.adfhg34();
 	this.instance.setTransform(-10,-8.5);
 
 	this.addChild(this.instance);
@@ -566,7 +566,7 @@ p.nominalBounds = new cjs.Rectangle(-49.9,-50.5,100,101);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},1).wait(1));
 
 	// Слой 1
-	this.instance_2 = new lib._8_21();
+	this.instance_2 = new lib.wretvcbrt();
 	this.instance_2.setTransform(-32,-36);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(2));
@@ -906,7 +906,7 @@ p.nominalBounds = new cjs.Rectangle(-70.1,-80.8,221,160.4);
 
 	this.addChild(this.instance_1,this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-433.6,-99.1,598.6,170.7);
+p.nominalBounds = new cjs.Rectangle(-433.6,-99.1,598.5,170.7);
 
 
 (lib.Символ24 = function(mode,startPosition,loop) {
