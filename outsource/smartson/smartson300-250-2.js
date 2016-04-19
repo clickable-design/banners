@@ -879,6 +879,10 @@ p.nominalBounds = new cjs.Rectangle(-425.9,-280.2,150,150);
 
 	// timeline functions:
 	this.frame_0 = function() {
+		var bodyStyle = document.body.style;
+		bodyStyle.margin = 0;
+		bodyStyle.padding = 0;
+		
 		stage.canvas.addEventListener("mouseover", fl_mouseover.bind(this));
 		function fl_mouseover()
 		{
