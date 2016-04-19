@@ -7,7 +7,7 @@ lib.properties = {
 	width: 300,
 	height: 250,
 	fps: 25,
-	color: "#000000",
+	color: "#FFFFFF",
 	manifest: [
 		{src:"images/Crowdscore.png", id:"Crowdscore"},
 		{src:"images/MONACO.jpg", id:"MONACO"},
@@ -933,6 +933,13 @@ p.nominalBounds = new cjs.Rectangle(-425.9,-280.2,150,150);
 	this.instance_3.setTransform(147.4,125.4);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
+
+	// Слой 7
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("A4fUZMAAAgoyMAw/AAAMAAAAoyg");
+	this.shape.setTransform(151.1,124.9);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-159.8,32.6,677.5,401.9);
