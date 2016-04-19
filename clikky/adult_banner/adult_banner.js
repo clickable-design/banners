@@ -9,12 +9,12 @@ lib.properties = {
 	fps: 30,
 	color: "#FF0066",
 	manifest: [
-		{src:"images/a1.png?1461071184844", id:"a1"},
-		{src:"images/a2.png?1461071184844", id:"a2"},
-		{src:"images/a3.png?1461071184844", id:"a3"},
-		{src:"images/bg.jpg?1461071184844", id:"bg"},
-		{src:"images/ggg.png?1461071184844", id:"ggg"},
-		{src:"images/ooo.png?1461071184844", id:"ooo"}
+		{src:"images/a1.png?1461073297091", id:"a1"},
+		{src:"images/a2.png?1461073297091", id:"a2"},
+		{src:"images/a3.png?1461073297091", id:"a3"},
+		{src:"images/bg.jpg?1461073297091", id:"bg"},
+		{src:"images/ggg.png?1461073297091", id:"ggg"},
+		{src:"images/ooo.png?1461073297091", id:"ooo"}
 	]
 };
 
@@ -564,6 +564,21 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 		
 		function _setCanvasScale(){
 			
+			_this.g_btn.scaleX = 0.35;
+			_this.g_btn.scaleY = 0.35;
+		
+			_this.title.scaleX = 0.6;
+			_this.title.scaleY = 0.6;
+		
+			_this.o_btn.scaleX = 0.35;
+			_this.o_btn.scaleY = 0.35;
+		
+			_this.bg.scaleX = 0.9;
+			_this.bg.scaleY = 0.9;
+		
+			_this.main.scaleX = 0.7;
+			_this.main.scaleY = 0.7;
+			
 			if(stage.canvas.width > 767){
 				
 			_this.g_btn.scaleX = 0.8;
@@ -583,24 +598,6 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 				
 			} 
 			
-			if(stage.canvas.width < 767) {
-		
-			_this.g_btn.scaleX = 0.35;
-			_this.g_btn.scaleY = 0.35;
-		
-			_this.title.scaleX = 0.6;
-			_this.title.scaleY = 0.6;
-		
-			_this.o_btn.scaleX = 0.35;
-			_this.o_btn.scaleY = 0.35;
-		
-			_this.bg.scaleX = 0.9;
-			_this.bg.scaleY = 0.9;
-		
-			_this.main.scaleX = 0.7;
-			_this.main.scaleY = 0.7;
-				
-			}
 		}
 		
 			window.onresize=function(){
@@ -621,7 +618,7 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 		
 		
 		window.onresize();
-		document.addEventListener("DOMContentLoaded", function(){ _setCanvasSize();_setCanvasScale(); });
+		document.addEventListener("DOMContentLoaded", function(){ _setCanvasSize();_setCanvasScale()});
 	}
 
 	// actions tween:
