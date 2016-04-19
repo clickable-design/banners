@@ -9,12 +9,12 @@ lib.properties = {
 	fps: 30,
 	color: "#FF0066",
 	manifest: [
-		{src:"images/a1.png?1461073297091", id:"a1"},
-		{src:"images/a2.png?1461073297091", id:"a2"},
-		{src:"images/a3.png?1461073297091", id:"a3"},
-		{src:"images/bg.jpg?1461073297091", id:"bg"},
-		{src:"images/ggg.png?1461073297091", id:"ggg"},
-		{src:"images/ooo.png?1461073297091", id:"ooo"}
+		{src:"images/a1.png?1461080443352", id:"a1"},
+		{src:"images/a2.png?1461080443352", id:"a2"},
+		{src:"images/a3.png?1461080443352", id:"a3"},
+		{src:"images/bg.jpg?1461080443352", id:"bg"},
+		{src:"images/ggg.png?1461080443352", id:"ggg"},
+		{src:"images/ooo.png?1461080443352", id:"ooo"}
 	]
 };
 
@@ -530,8 +530,6 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 			}
 		}
 		
-		
-		
 		//Resize
 		
 		window._setCanvasSize = function() {
@@ -539,8 +537,6 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 			var windowSize = getWindowSize();
 			stage.canvas.width = windowSize.width;
 			stage.canvas.height = windowSize.height;
-			_setCanvasScale();
-		
 			
 			_this.g_btn.x = 0;
 			_this.g_btn.y = stage.canvas.height;
@@ -557,13 +553,8 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 			_this.main.x = stage.canvas.width/2;
 			_this.main.y = stage.canvas.height;
 			
-			
-		}
+			//Scale
 		
-		//Scale
-		
-		function _setCanvasScale(){
-			
 			_this.g_btn.scaleX = 0.35;
 			_this.g_btn.scaleY = 0.35;
 		
@@ -579,7 +570,7 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 			_this.main.scaleX = 0.7;
 			_this.main.scaleY = 0.7;
 			
-			if(stage.canvas.width > 767){
+			if(stage.canvas.width > 767) {
 				
 			_this.g_btn.scaleX = 0.8;
 			_this.g_btn.scaleY = 0.8;
@@ -600,9 +591,9 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 			
 		}
 		
+		
 			window.onresize=function(){
 				_setCanvasSize();
-				_setCanvasScale();
 			}
 		
 			
@@ -618,7 +609,7 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 		
 		
 		window.onresize();
-		document.addEventListener("DOMContentLoaded", function(){ _setCanvasSize();_setCanvasScale()});
+		document.addEventListener("DOMContentLoaded", function(){ _setCanvasSize()});
 	}
 
 	// actions tween:
