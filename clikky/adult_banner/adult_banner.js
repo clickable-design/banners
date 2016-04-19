@@ -9,12 +9,12 @@ lib.properties = {
 	fps: 30,
 	color: "#FF0066",
 	manifest: [
-		{src:"images/a1.png?1461070077778", id:"a1"},
-		{src:"images/a2.png?1461070077778", id:"a2"},
-		{src:"images/a3.png?1461070077778", id:"a3"},
-		{src:"images/bg.jpg?1461070077778", id:"bg"},
-		{src:"images/ggg.png?1461070077778", id:"ggg"},
-		{src:"images/ooo.png?1461070077778", id:"ooo"}
+		{src:"images/a1.png?1461071184844", id:"a1"},
+		{src:"images/a2.png?1461071184844", id:"a2"},
+		{src:"images/a3.png?1461071184844", id:"a3"},
+		{src:"images/bg.jpg?1461071184844", id:"bg"},
+		{src:"images/ggg.png?1461071184844", id:"ggg"},
+		{src:"images/ooo.png?1461071184844", id:"ooo"}
 	]
 };
 
@@ -530,7 +530,38 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 			}
 		}
 		
+		
+		
+		//Resize
+		
+		window._setCanvasSize = function() {
+			
+			var windowSize = getWindowSize();
+			stage.canvas.width = windowSize.width;
+			stage.canvas.height = windowSize.height;
+			_setCanvasScale();
+		
+			
+			_this.g_btn.x = 0;
+			_this.g_btn.y = stage.canvas.height;
+			
+			_this.title.x = stage.canvas.width/2;
+			_this.title.y = 0;
+			
+			_this.bg.x = stage.canvas.width/2;
+			_this.bg.y = stage.canvas.height/2;
+			
+			_this.o_btn.x = stage.canvas.width;
+			_this.o_btn.y = stage.canvas.height;
+			
+			_this.main.x = stage.canvas.width/2;
+			_this.main.y = stage.canvas.height;
+			
+			
+		}
+		
 		//Scale
+		
 		function _setCanvasScale(){
 			
 			if(stage.canvas.width > 767){
@@ -571,35 +602,6 @@ p.nominalBounds = new cjs.Rectangle(-858.1,-585.2,1719.5,715.9);
 				
 			}
 		}
-		
-		//Resize
-		
-		window._setCanvasSize = function() {
-			
-			var windowSize = getWindowSize();
-			stage.canvas.width = windowSize.width;
-			stage.canvas.height = windowSize.height;
-			_setCanvasScale();
-		
-			
-			_this.g_btn.x = 0;
-			_this.g_btn.y = stage.canvas.height;
-			
-			_this.title.x = stage.canvas.width/2;
-			_this.title.y = 0;
-			
-			_this.bg.x = stage.canvas.width/2;
-			_this.bg.y = stage.canvas.height/2;
-			
-			_this.o_btn.x = stage.canvas.width;
-			_this.o_btn.y = stage.canvas.height;
-			
-			_this.main.x = stage.canvas.width/2;
-			_this.main.y = stage.canvas.height;
-			
-			
-		}
-		
 		
 			window.onresize=function(){
 				_setCanvasSize();
