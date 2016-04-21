@@ -410,20 +410,15 @@ p.nominalBounds = new cjs.Rectangle(-111.2,-6.4,222.5,12.8);
 
 	// Слой 3
 	this.instance = new lib.Символ33();
-	this.instance.setTransform(33.7,13.8,0.755,0.755);
-
-	// Слой 2
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("At5BwIAAjfIbyAAIAADfg");
-	this.shape.setTransform(33.5,16);
+	this.instance.setTransform(9,24.3,1.036,1.036);
 
 	// Слой 1
 	this.instance_1 = new lib.binarium_logo_ru();
-	this.instance_1.setTransform(-106.2,-32,0.802,0.802);
+	this.instance_1.setTransform(-106.7,-41.5,0.802,0.802);
 
-	this.addChild(this.instance_1,this.shape,this.instance);
+	this.addChild(this.instance_1,this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-106.2,-32,228.8,64.2);
+p.nominalBounds = new cjs.Rectangle(-106.7,-41.5,231.1,72.5);
 
 
 (lib.Символ15 = function(mode,startPosition,loop) {
@@ -1230,7 +1225,7 @@ p.nominalBounds = new cjs.Rectangle(0,0.1,182.5,52.9);
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(496.3,-148.5,1871.5,290.4);
+p.nominalBounds = new cjs.Rectangle(495.8,-148.5,1872,290.4);
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{});
 var lib, images, createjs;
