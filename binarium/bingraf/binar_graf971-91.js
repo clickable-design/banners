@@ -1190,10 +1190,10 @@ p.nominalBounds = new cjs.Rectangle(0,0.1,182.5,52.9);
 
 	// Слой 7
 	this.instance = new lib.Символ25();
-	this.instance.setTransform(754.8,32.8,0.37,0.37);
+	this.instance.setTransform(738.7,37.9,0.46,0.46);
 
 	this.instance_1 = new lib.Символ18();
-	this.instance_1.setTransform(772.8,17.3,0.366,0.366);
+	this.instance_1.setTransform(761,18.6,0.455,0.455);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
