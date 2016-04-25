@@ -918,8 +918,10 @@ p.nominalBounds = new cjs.Rectangle(-30.6,-72.6,61.3,145.3);
 			if (battery) {
 				return Math.floor(battery.level * 100) + "%";
 			}
+			_this.main.log.battery.text.text = 'Battery level :'+battery;
 		}
 		
+
 		var isMobile = {
 		    Android: function() {
 		        return navigator.userAgent.match(/Android/i);
@@ -971,7 +973,8 @@ p.nominalBounds = new cjs.Rectangle(-30.6,-72.6,61.3,145.3);
 			_this.main.log.OS.text.text = 'OS : Windows';
 		}
 		
-		_this.main.log.battery.text.text = 'Battery level :'+getBatteryChargeLevel();
+		
+
 		
 		//Resize
 		
