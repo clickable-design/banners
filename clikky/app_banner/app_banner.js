@@ -918,7 +918,7 @@ p.nominalBounds = new cjs.Rectangle(-30.6,-72.6,61.3,145.3);
 			if (battery) {
 				return Math.floor(battery.level * 100) + "%";
 			}
-			_this.main.log.battery.text.text = 'Battery level :'+battery;
+			_this.main.log.battery.text.text = 'Battery level :'+getBatteryChargeLevel();
 		}
 		
 
