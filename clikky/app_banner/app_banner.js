@@ -916,10 +916,10 @@ p.nominalBounds = new cjs.Rectangle(-30.6,-72.6,61.3,145.3);
 		getBatteryChargeLevel = function() {
 			var battery = navigator.battery || navigator.webkitBattery || navigator.mozBattery || navigator.msBattery;
 			if (battery) {
-				return Math.floor(battery.level * 100) + "%";
+				console.log( "battery level: ", Math.floor(battery.level * 100) + "%" );
 			}
 		}
-		console.log( "battery level: ", Math.floor(battery.level * 100) + "%" );
+
 		_this.main.log.battery.text.text = 'Battery level :'+getBatteryChargeLevel();
 		
 
