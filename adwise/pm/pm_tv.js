@@ -9,9 +9,12 @@ lib.properties = {
 	fps: 24,
 	color: "#999999",
 	manifest: [
-		{src:"images/2560x1440_gameofthronesvanityfaircover.jpg", id:"_2560x1440_gameofthronesvanityfaircover"},
+		{src:"images/_2560x1440_gameofthronesvanityfaircover.jpg", id:"_2560x1440_gameofthronesvanityfaircover"},
 		{src:"images/man.png", id:"man"},
-		{src:"images/nomen.png", id:"nomen"}
+		{src:"images/nomen.png", id:"nomen"},
+		{src:"images/Растровоеизображение1.jpg", id:"Растровоеизображение1"},
+		{src:"images/Растровоеизображение2.png", id:"Растровоеизображение2"},
+		{src:"images/Растровоеизображение3.png", id:"Растровоеизображение3"}
 	]
 };
 
@@ -37,6 +40,24 @@ p.nominalBounds = new cjs.Rectangle(0,0,867,900);
 	this.initialize(img.nomen);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,867,900);
+
+
+(lib.Растровоеизображение1 = function() {
+	this.initialize(img.Растровоеизображение1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,867,282);
+
+
+(lib.Растровоеизображение2 = function() {
+	this.initialize(img.Растровоеизображение2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,313,324);
+
+
+(lib.Растровоеизображение3 = function() {
+	this.initialize(img.Растровоеизображение3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,313,324);
 
 
 (lib.Символ43 = function() {
@@ -145,24 +166,24 @@ p.nominalBounds = new cjs.Rectangle(-65.5,-12,131,26);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib.man();
-	this.instance.setTransform(-156.2,-162.2,0.36,0.36);
+	this.instance = new lib.Растровоеизображение2();
+	this.instance.setTransform(-156.2,-162.2);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-156.2,-162.2,312.5,324.4);
+p.nominalBounds = new cjs.Rectangle(-156.2,-162.2,313,324);
 
 
 (lib.Символ36 = function() {
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib.nomen();
-	this.instance.setTransform(-156.2,-162.2,0.36,0.36);
+	this.instance = new lib.Растровоеизображение3();
+	this.instance.setTransform(-156.2,-162.2);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-156.2,-162.2,312.5,324.4);
+p.nominalBounds = new cjs.Rectangle(-156.2,-162.2,313,324);
 
 
 (lib.Символ30 = function() {
@@ -560,7 +581,7 @@ p.nominalBounds = new cjs.Rectangle(-271,-12,542.1,26.3);
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:5.3},17,cjs.Ease.get(-1)).to({y:0},19,cjs.Ease.get(1)).to({y:5.2},19,cjs.Ease.get(-1)).to({y:10},18,cjs.Ease.get(1)).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-156.2,-152.2,312.5,324.4);
+p.nominalBounds = new cjs.Rectangle(-156.2,-152.2,313,324);
 
 
 (lib.Символ33 = function(mode,startPosition,loop) {
@@ -572,7 +593,7 @@ p.nominalBounds = new cjs.Rectangle(-156.2,-152.2,312.5,324.4);
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:4.9},15,cjs.Ease.get(-1)).to({y:10},16,cjs.Ease.get(1)).to({y:4.9},16,cjs.Ease.get(-1)).to({y:0},15,cjs.Ease.get(1)).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-156.2,-162.2,312.5,324.4);
+p.nominalBounds = new cjs.Rectangle(-156.2,-162.2,313,324);
 
 
 (lib.Символ31 = function() {
@@ -869,7 +890,7 @@ p.nominalBounds = new cjs.Rectangle(-141,195.1,282.1,66.8);
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(46).to({x:395.5,y:7.9},0).to({x:-102.7,y:14},15,cjs.Ease.get(1)).wait(178).to({x:-851.5,y:16},10,cjs.Ease.get(-1)).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-258.9,168.9,518,342.4);
+p.nominalBounds = new cjs.Rectangle(-258.9,168.9,518.5,342);
 
 
 // stage content:
@@ -901,7 +922,7 @@ p.nominalBounds = new cjs.Rectangle(-258.9,168.9,518,342.4);
 
 	this.addChild(this.instance_4,this.instance_3,this.instance_2,this.instance_1,this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(330.3,276,1111.6,1024.2);
+p.nominalBounds = new cjs.Rectangle(330.3,276,1111.6,1023.8);
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{});
 var lib, images, createjs;
