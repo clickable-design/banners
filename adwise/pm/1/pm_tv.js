@@ -9,12 +9,9 @@ lib.properties = {
 	fps: 24,
 	color: "#999999",
 	manifest: [
-		{src:"images/_2560x1440_gameofthronesvanityfaircover.jpg", id:"_2560x1440_gameofthronesvanityfaircover"},
-		{src:"images/man.png", id:"man"},
-		{src:"images/nomen.png", id:"nomen"},
-		{src:"images/Растровоеизображение1.jpg", id:"Растровоеизображение1"},
-		{src:"images/Растровоеизображение2.png", id:"Растровоеизображение2"},
-		{src:"images/Растровоеизображение3.png", id:"Растровоеизображение3"}
+		{src:"images/bas.png", id:"bas"},
+		{src:"images/game.jpg", id:"game"},
+		{src:"images/hok.png", id:"hok"}
 	]
 };
 
@@ -24,38 +21,20 @@ lib.properties = {
 
 
 
-(lib._2560x1440_gameofthronesvanityfaircover = function() {
-	this.initialize(img._2560x1440_gameofthronesvanityfaircover);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2560,1440);
-
-
-(lib.man = function() {
-	this.initialize(img.man);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,867,900);
-
-
-(lib.nomen = function() {
-	this.initialize(img.nomen);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,867,900);
-
-
-(lib.Растровоеизображение1 = function() {
-	this.initialize(img.Растровоеизображение1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,867,282);
-
-
-(lib.Растровоеизображение2 = function() {
-	this.initialize(img.Растровоеизображение2);
+(lib.bas = function() {
+	this.initialize(img.bas);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,313,324);
 
 
-(lib.Растровоеизображение3 = function() {
-	this.initialize(img.Растровоеизображение3);
+(lib.game = function() {
+	this.initialize(img.game);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2560,1440);
+
+
+(lib.hok = function() {
+	this.initialize(img.hok);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,313,324);
 
@@ -166,7 +145,7 @@ p.nominalBounds = new cjs.Rectangle(-65.5,-12,131,26);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib.Растровоеизображение2();
+	this.instance = new lib.hok();
 	this.instance.setTransform(-156.2,-162.2);
 
 	this.addChild(this.instance);
@@ -178,7 +157,7 @@ p.nominalBounds = new cjs.Rectangle(-156.2,-162.2,313,324);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib.Растровоеизображение3();
+	this.instance = new lib.bas();
 	this.instance.setTransform(-156.2,-162.2);
 
 	this.addChild(this.instance);
@@ -917,7 +896,7 @@ p.nominalBounds = new cjs.Rectangle(-258.9,168.9,518.5,342);
 	this.instance_3.setTransform(642,489);
 
 	// Слой 5
-	this.instance_4 = new lib._2560x1440_gameofthronesvanityfaircover();
+	this.instance_4 = new lib.game();
 	this.instance_4.setTransform(-119.7,-24,0.434,0.434);
 
 	this.addChild(this.instance_4,this.instance_3,this.instance_2,this.instance_1,this.instance);

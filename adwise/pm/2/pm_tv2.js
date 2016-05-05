@@ -9,16 +9,15 @@ lib.properties = {
 	fps: 24,
 	color: "#999999",
 	manifest: [
-		{src:"images/logo.png", id:"logo"},
+		{src:"images/ba.png", id:"ba"},
+		{src:"images/game.jpg", id:"game"},
 		{src:"images/ma4.jpg", id:"ma4"},
 		{src:"images/mans_03.png", id:"mans_03"},
 		{src:"images/mans_06.png", id:"mans_06"},
 		{src:"images/mans_08.png", id:"mans_08"},
 		{src:"images/mans_14.png", id:"mans_14"},
 		{src:"images/mans_17.png", id:"mans_17"},
-		{src:"images/mans_20.png", id:"mans_20"},
-		{src:"images/Растровоеизображение1.png", id:"Растровоеизображение1"},
-		{src:"images/Растровоеизображение13.png", id:"Растровоеизображение13"}
+		{src:"images/mans_20.png", id:"mans_20"}
 	]
 };
 
@@ -28,10 +27,16 @@ lib.properties = {
 
 
 
-(lib.logo = function() {
-	this.initialize(img.logo);
+(lib.ba = function() {
+	this.initialize(img.ba);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,188,49);
+p.nominalBounds = new cjs.Rectangle(0,0,32,32);
+
+
+(lib.game = function() {
+	this.initialize(img.game);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1920,1080);
 
 
 (lib.ma4 = function() {
@@ -74,18 +79,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,197,245);
 	this.initialize(img.mans_20);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,238,228);
-
-
-(lib.Растровоеизображение1 = function() {
-	this.initialize(img.Растровоеизображение1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,32,32);
-
-
-(lib.Растровоеизображение13 = function() {
-	this.initialize(img.Растровоеизображение13);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1920,1080);
 
 
 (lib.Символ26 = function() {
@@ -224,7 +217,7 @@ p.nominalBounds = new cjs.Rectangle(-113.5,-109,227.1,218);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib.Растровоеизображение1();
+	this.instance = new lib.ba();
 	this.instance.setTransform(-15.8,-15.9);
 
 	this.addChild(this.instance);
@@ -606,7 +599,7 @@ p.nominalBounds = new cjs.Rectangle(-675.5,-157,638,509.3);
 	this.instance_2.setTransform(288.1,493.6);
 
 	// Слой 3
-	this.instance_3 = new lib.Растровоеизображение13();
+	this.instance_3 = new lib.game();
 	this.instance_3.setTransform(-192.1,-9.6,0.576,0.576);
 
 	this.addChild(this.instance_3,this.instance_2,this.instance_1,this.instance);
