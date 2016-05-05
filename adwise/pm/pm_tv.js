@@ -9,7 +9,7 @@ lib.properties = {
 	fps: 24,
 	color: "#999999",
 	manifest: [
-		{src:"images/_2560x1440_gameofthronesvanityfaircover.jpg", id:"_2560x1440_gameofthronesvanityfaircover"},
+		{src:"images/2560x1440_gameofthronesvanityfaircover.jpg", id:"_2560x1440_gameofthronesvanityfaircover"},
 		{src:"images/man.png", id:"man"},
 		{src:"images/nomen.png", id:"nomen"}
 	]
