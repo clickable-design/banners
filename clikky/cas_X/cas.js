@@ -9,20 +9,20 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/_2.png?1462535817790", id:"_2"},
-		{src:"images/_3.png?1462535817790", id:"_3"},
-		{src:"images/_5.png?1462535817790", id:"_5"},
-		{src:"images/bod.png?1462535817790", id:"bod"},
-		{src:"images/body.png?1462535817790", id:"body"},
-		{src:"images/btn.png?1462535817790", id:"btn"},
-		{src:"images/coin.png?1462535817790", id:"coin"},
-		{src:"images/had.png?1462535817790", id:"had"},
-		{src:"images/handd1.png?1462535817790", id:"handd1"},
-		{src:"images/logox.png?1462535817790", id:"logox"},
-		{src:"images/rahad.png?1462535817790", id:"rahad"},
-		{src:"images/rahand.png?1462535817790", id:"rahand"},
-		{src:"images/slot.jpg?1462535817790", id:"slot"},
-		{src:"images/yy87.png?1462535817790", id:"yy87"}
+		{src:"images/bod.png?1462536085706", id:"bod"},
+		{src:"images/body.png?1462536085706", id:"body"},
+		{src:"images/btn.png?1462536085706", id:"btn"},
+		{src:"images/coin.png?1462536085706", id:"coin"},
+		{src:"images/had.png?1462536085706", id:"had"},
+		{src:"images/handd1.png?1462536085706", id:"handd1"},
+		{src:"images/logox.png?1462536085706", id:"logox"},
+		{src:"images/rahad.png?1462536085706", id:"rahad"},
+		{src:"images/rahand.png?1462536085706", id:"rahand"},
+		{src:"images/slot.jpg?1462536085706", id:"slot"},
+		{src:"images/y2.png?1462536085706", id:"y2"},
+		{src:"images/y3.png?1462536085706", id:"y3"},
+		{src:"images/y5.png?1462536085706", id:"y5"},
+		{src:"images/yy87.png?1462536085706", id:"yy87"}
 	]
 };
 
@@ -30,24 +30,6 @@ lib.properties = {
 
 // symbols:
 
-
-
-(lib._2 = function() {
-	this.initialize(img._2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,80,76);
-
-
-(lib._3 = function() {
-	this.initialize(img._3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,80,76);
-
-
-(lib._5 = function() {
-	this.initialize(img._5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,80,76);
 
 
 (lib.bod = function() {
@@ -108,6 +90,24 @@ p.nominalBounds = new cjs.Rectangle(0,0,104,302);
 	this.initialize(img.slot);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,390,177);
+
+
+(lib.y2 = function() {
+	this.initialize(img.y2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,80,76);
+
+
+(lib.y3 = function() {
+	this.initialize(img.y3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,80,76);
+
+
+(lib.y5 = function() {
+	this.initialize(img.y5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,80,76);
 
 
 (lib.yy87 = function() {
@@ -354,7 +354,7 @@ p.nominalBounds = new cjs.Rectangle(-259,-156.5,518,313);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 3
-	this.instance = new lib._3();
+	this.instance = new lib.y3();
 	this.instance.setTransform(-39.3,-38);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -367,7 +367,7 @@ p.nominalBounds = new cjs.Rectangle(-39.3,-38,80,76);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 3
-	this.instance_1 = new lib._5();
+	this.instance_1 = new lib.y5();
 	this.instance_1.setTransform(-39.2,-38);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
@@ -380,7 +380,7 @@ p.nominalBounds = new cjs.Rectangle(-39.2,-38,80,76);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 2
-	this.instance = new lib._2();
+	this.instance = new lib.y2();
 	this.instance.setTransform(-35.4,-38);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
