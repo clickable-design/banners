@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>game_banner_app_2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="game_banner_app_2.js?1462367938891"></script>
+<script>
+var canvas, stage, exportRoot;
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+
+	setTimeout(function() {
+		var closeBtn = document.querySelector('#clickky_banner_full>#closeBtn');
+		if(closeBtn) {
+			closeBtn.style.display = 'block';
+		}
+	}, 5000);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib.game_banner_app_2();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+	stage.enableMouseOver();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+function close_banner_full(){
+	document.getElementById("clickky_banner_full").style.display = "none";
+}
+
+</script>
+</head>
+<body onload="init();" style="background-color:#D4D4D4;margin:0px;">
+	<div id="clickky_banner_full" style="background:url(images/bg_cover.svg) center no-repeat;background-size:cover;">
+    <div id="closeBtn" onclick="close_banner_full();" style="position:absolute;top:10px;right:10px;display:none;width:10px;height:10px;background:url(images/closeBtn.svg) center no-repeat;background-size:cover;z-index:65001;"></div>
+    <canvas id="canvas" width="960" height="960" style=""></canvas>
+    </div>
+</body>
+</html>
