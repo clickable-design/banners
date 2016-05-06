@@ -1691,14 +1691,14 @@ p.nominalBounds = new cjs.Rectangle(-392.3,-629,701.2,933.1);
 			
 			if(windowSize.width < 767 && windowSize.width > windowSize.height) {
 			
-			_this.slot.scaleX = 0.4;
-			_this.slot.scaleY = 0.4;
+			_this.slot.scaleX = 0.5;
+			_this.slot.scaleY = 0.5;
 				
 			_this.logo.scaleX = 0.7;
 			_this.logo.scaleY = 0.7;
 				
-			_this.knopka.scaleX = 0.7;
-			_this.knopka.scaleY = 0.7;
+			_this.knopka.scaleX = 0.9;
+			_this.knopka.scaleY = 0.9;
 				
 			_this.slot.x = windowSize.width/4;
 			_this.slot.y = windowSize.height/2;
