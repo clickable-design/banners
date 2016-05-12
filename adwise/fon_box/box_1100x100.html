@@ -1,21 +1,25 @@
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. "DO NOT" alter the tokens in the template html as they are required during publishing.
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>lu_600x300</title>
+<title>box_1100x100</title>
+<!-- write your code here -->
 
-<script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>
-<script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
-<script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>
-<script src="http://code.createjs.com/preloadjs-0.6.1.min.js"></script>
-<script src="lu_600x300.js"></script>
 
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="box_1100x100.js?1463054753817"></script>
 <script>
 var canvas, stage, exportRoot;
-
 function init() {
-	createjs.MotionGuidePlugin.install();
-
+	// --- write your JS code here ---
+	
 	canvas = document.getElementById("canvas");
 	images = images||{};
 
@@ -30,7 +34,7 @@ function handleFileLoad(evt) {
 }
 
 function handleComplete(evt) {
-	exportRoot = new lib.lu_600x300();
+	exportRoot = new lib.box_1100x100();
 
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);
@@ -40,10 +44,13 @@ function handleComplete(evt) {
 	createjs.Ticker.setFPS(lib.properties.fps);
 	createjs.Ticker.addEventListener("tick", stage);
 }
-</script>
-</head>
 
-<body onload="init();" style="background-color:#D4D4D4">
-	<canvas id="canvas" width="600" height="300" style="background-color:#999999"></canvas>
+</script>
+
+<!-- write your code here -->
+
+</head>
+<body onload="init();" style="background-color:#D4D4D4;margin:0px;">
+	<canvas id="canvas" width="1100" height="100" style="background-color:#FFFFFF"></canvas>
 </body>
 </html>
