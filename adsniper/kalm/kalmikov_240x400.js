@@ -9,8 +9,8 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/g_21213.png?1463757665265", id:"_21213"},
-		{src:"images/ff32e3e3.jpg?1463757665265", id:"ff32e3e3"}
+		{src:"images/ff32e3e3.jpg?1463757981212", id:"ff32e3e3"},
+		{src:"images/rr_21213.png?1463757981212", id:"rr_21213"}
 	]
 };
 
@@ -20,16 +20,16 @@ lib.properties = {
 
 
 
-(lib._21213 = function() {
-	this.initialize(img._21213);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,278,340);
-
-
 (lib.ff32e3e3 = function() {
 	this.initialize(img.ff32e3e3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,400,250);
+
+
+(lib.rr_21213 = function() {
+	this.initialize(img.rr_21213);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,278,340);
 
 
 (lib.Символ23 = function(mode,startPosition,loop) {
@@ -192,7 +192,7 @@ p.nominalBounds = new cjs.Rectangle(-245,-225,490,450);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib._21213();
+	this.instance = new lib.rr_21213();
 	this.instance.setTransform(-126.6,-171.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
