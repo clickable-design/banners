@@ -339,7 +339,7 @@ p.nominalBounds = new cjs.Rectangle(-162.8,-161.5,325.7,323.1);
 	}
 	this.frame_32 = function() {
 		this.stop();
-		this.parent.win.addEventListener("mousedown", ClickToGoToWebPage);
+		this.parent.win.addEventListener("click", ClickToGoToWebPage);
 		function ClickToGoToWebPage() {
 			window.open("http://clickable.design", "_blank");
 			document.location.reload();
@@ -986,7 +986,7 @@ p.nominalBounds = new cjs.Rectangle(-88.4,-85.6,176.9,171.3);
 		
 		
 		
-		_this.star_1.addEventListener("mousedown", Star_1); 
+		_this.star_1.addEventListener("click", Star_1); 
 		function Star_1() {
 			console.log('star_1');
 			_this.star_1.star.visible = false;
@@ -997,7 +997,7 @@ p.nominalBounds = new cjs.Rectangle(-88.4,-85.6,176.9,171.3);
 			event.preventDefault();
 		}
 		
-		_this.star_2.addEventListener("mousedown", Star_2); 
+		_this.star_2.addEventListener("click", Star_2); 
 		function Star_2() {
 			console.log('star_2');
 			_this.star_2.star.visible = false;
@@ -1008,7 +1008,7 @@ p.nominalBounds = new cjs.Rectangle(-88.4,-85.6,176.9,171.3);
 			event.preventDefault();
 		}
 		
-		_this.star_3.addEventListener("mousedown", Star_3); 
+		_this.star_3.addEventListener("click", Star_3); 
 		function Star_3() {
 			console.log('star_3');
 			_this.star_3.star.visible = false;
@@ -1019,7 +1019,7 @@ p.nominalBounds = new cjs.Rectangle(-88.4,-85.6,176.9,171.3);
 			event.preventDefault();
 		}
 		
-		_this.star_4.addEventListener("mousedown", Star_4); 
+		_this.star_4.addEventListener("click", Star_4); 
 		function Star_4() {
 			console.log('star_1');
 			_this.star_4.star.visible = false;
