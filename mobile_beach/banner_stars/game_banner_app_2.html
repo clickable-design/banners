@@ -34,8 +34,17 @@ function handleComplete(evt) {
 	createjs.Ticker.setFPS(lib.properties.fps);
 	createjs.Ticker.addEventListener("tick", stage);
 }
-
 </script>
+
+<style type="text/css">
+canvas {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+	user-select: none;
+	}
+</style>
+
 </head>
 <body onload="init();" style="background-color:#ffffff;margin:0px;">   
     <canvas id="canvas" width="960" height="960" style="background:url(images/bg_cover.svg) center no-repeat;background-size:cover;"></canvas>    
