@@ -9,9 +9,9 @@ lib.properties = {
 	fps: 30,
 	color: "#999999",
 	manifest: [
-		{src:"images/car.png?1464179326453", id:"car"},
-		{src:"images/logo39925561f34e143327dfdbca64ddd835714aeea22e04d2ca162972678440dbe0.png?1464179326453", id:"logo39925561f34e143327dfdbca64ddd835714aeea22e04d2ca162972678440dbe0"},
-		{src:"images/wolks_fon1.jpg?1464179326453", id:"wolks_fon1"}
+		{src:"images/car.png?1464180257224", id:"car"},
+		{src:"images/logo39925561f34e143327dfdbca64ddd835714aeea22e04d2ca162972678440dbe0.png?1464180257224", id:"logo39925561f34e143327dfdbca64ddd835714aeea22e04d2ca162972678440dbe0"},
+		{src:"images/wolks_fon1.jpg?1464180257224", id:"wolks_fon1"}
 	]
 };
 
@@ -899,7 +899,7 @@ p.nominalBounds = new cjs.Rectangle(-239,-211.2,998.6,423.5);
 
 
 
-(lib.wolks_640x305 = function(mode,startPosition,loop) {
+(lib.volks_640x305 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
