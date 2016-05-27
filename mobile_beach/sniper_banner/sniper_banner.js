@@ -1001,9 +1001,9 @@ p.nominalBounds = new cjs.Rectangle(-362.8,-264.5,650.9,441.1);
 			var touch = event.targetTouches[0];
 			var windowSize = getWindowSize();
 			if(touch.pageX > windowSize.width - (windowSize.width/2) && touch.pageY > windowSize.height - (windowSize.height/5)){
-				//window.open("http://clickable.design/promo/", "_blank");
-				//document.location.reload();
-				console.log('go');
+				window.open("http://clickable.design/promo/", "_blank");
+				document.location.reload();
+				//console.log('go');
 			}
 		}
 		
