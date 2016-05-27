@@ -9,11 +9,11 @@ lib.properties = {
 	fps: 30,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/bg.jpg?1464369024528", id:"bg"},
-		{src:"images/enemy.png?1464369024528", id:"enemy"},
-		{src:"images/fire.png?1464369024528", id:"fire"},
-		{src:"images/gun.png?1464369024528", id:"gun"},
-		{src:"images/water.png?1464369024528", id:"water"}
+		{src:"images/bg.jpg?1464369679792", id:"bg"},
+		{src:"images/enemy.png?1464369679792", id:"enemy"},
+		{src:"images/fire.png?1464369679792", id:"fire"},
+		{src:"images/gun.png?1464369679792", id:"gun"},
+		{src:"images/water.png?1464369679792", id:"water"}
 	]
 };
 
@@ -997,14 +997,7 @@ p.nominalBounds = new cjs.Rectangle(-362.8,-264.5,650.9,441.1);
 			
 		_this.pricel.visible = false;
 			
-		function FireBtn(){
-			var touch = event.targetTouches[0];
-			var windowSize = getWindowSize();
-			if(touch.pageX > windowSize.width - (windowSize.width/2) && touch.pageY > windowSize.height - (windowSize.height/5)){
-				window.open("http://clickable.design/promo/", "_blank");
-				document.location.reload();	
-			}
-		}
+		
 		
 		var onTouchStart = function() {
 			console.log('start');
@@ -1031,10 +1024,17 @@ p.nominalBounds = new cjs.Rectangle(-362.8,-264.5,650.9,441.1);
 			_this.btn.play();
 			
 			event.preventDefault();
-			
+			stage.canvas.addEventListener("mousedown", ClickToGoToWebPage);
+			stage.canvas.removeEventListener('touchmove', onTouchMove, false);
+			stage.canvas.removeEventListener('touchstart', onTouchStart, false);
+			stage.canvas.removeEventListener('touchend', onTouchEnd, false);
 		};
 		
 		
+		function ClickToGoToWebPage() {
+			window.open("http://clickable.design/promo/", "_blank");
+			document.location.reload();
+		}
 		stage.canvas.addEventListener('touchmove', onTouchMove, false);
 		stage.canvas.addEventListener('touchstart', onTouchStart, false);
 		stage.canvas.addEventListener('touchend', onTouchEnd, false);
