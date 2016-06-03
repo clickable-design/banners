@@ -14,7 +14,7 @@
 
 
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="crisis600x300.js?1464945403699"></script>
+<script src="crisis600x300.js?1464952651524"></script>
 <script>
 var canvas, stage, exportRoot;
 function init() {
@@ -22,12 +22,10 @@ function init() {
 	
 	canvas = document.getElementById("canvas");
 	images = images||{};
-	ss = ss||{};
 
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", handleFileLoad);
 	loader.addEventListener("complete", handleComplete);
-	loader.loadFile({src:"images/crisis600x300_atlas_.json?1464945403699", type:"spritesheet", id:"crisis600x300_atlas_"}, true);
 	loader.loadManifest(lib.properties.manifest);
 }
 
@@ -36,8 +34,6 @@ function handleFileLoad(evt) {
 }
 
 function handleComplete(evt) {
-	var queue = evt.target;
-	ss["crisis600x300_atlas_"] = queue.getResult("crisis600x300_atlas_");
 	exportRoot = new lib.crisis600x300();
 
 	stage = new createjs.Stage(canvas);
