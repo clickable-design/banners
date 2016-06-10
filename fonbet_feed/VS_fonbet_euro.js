@@ -1052,7 +1052,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,100,105.5);
 				showEvent(getRand(events));
 				setInterval(function () {
 					showEvent(getNext(events));
-				}, 3 * 1000);
+				}, 5 * 1000);
 			}
 		}
 		
