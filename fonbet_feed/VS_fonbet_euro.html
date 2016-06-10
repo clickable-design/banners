@@ -5,7 +5,7 @@
 <title>VS_fonbet_euro</title>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=cyrillic-ext' rel='stylesheet' type='text/css'>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="VS_fonbet_euro.js?1465549757981"></script>
+<script src="VS_fonbet_euro.js?1465555129543"></script>
 <script>
 var canvas, stage, exportRoot;
 function init() {
@@ -16,7 +16,6 @@ function init() {
 	loader.addEventListener("fileload", handleFileLoad);
 	loader.addEventListener("complete", handleComplete);
 	loader.loadManifest(lib.properties.manifest);
-	createRequest();
 }
 
 function handleFileLoad(evt) {
@@ -36,122 +35,6 @@ function handleComplete(evt) {
 }
 
 </script>
-<script type="text/javascript">
-	
-	var lastEventKey = null;
-		var monts = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
-		var flags = {
-			'австрия': 'austria.png',
-			'албания': 'albania.png',
-			'англия': 'england.png',
-			'бельгия': 'belgium.png',
-			'венгрия': 'hungary.png',
-			'германия': 'germany.png',
-			'ирландия': 'ireland.png',
-			'исландия': 'iceland.png',
-			'испания': 'spain.png',
-			'италия': 'italy.png',
-			'польша': 'poland.png',
-			'португалия': 'portugal.png',
-			'россия': 'russia.png',
-			'румыния': 'romania.png',
-			'сев. ирландия': 'north_ireland.png',
-			'словакия': 'slovakia.png',
-			'турция': 'turkey.png',
-			'украина': 'ukraine.png',
-			'уэльс': 'wales.png',
-			'франция': 'france.png',
-			'хорватия': 'croatia.png',
-			'чехия': 'czech.png',
-			'швейцария': 'switzerland.png',
-			'швеция': 'sweden.png',
-			
-			'венесуэла': 'venezuela.png',
-			'уругвай': 'uruguay.png',
-			'сша': 'usa.png',
-			'перу': 'peru.png',
-			'парагвай': 'paraguay.png',
-			'панама': 'panama.png',
-			'мексика': 'mexico.png',
-			'ямайка': 'jamaica.png',
-			'гаити': 'haiti.png',
-			'эквадор': 'ecuador.png',
-			'коста-рика': 'costa_rica.png',
-			'колумбия': 'colombia.png',
-			'чили': 'chile.png',
-			'бразилия': 'brazil.png',
-			'боливия': 'bolivia.png',
-			'аргентина': 'argentina.png',
-		};
-		
-
-		function fonbet_callback(data) {
-
-			var rootId = 1; // футбол
-			var events = [];
-			var currentTime = new Date().getTime() / 1000;
-
-			if (data && typeof data === 'object') {
-				for (var i in data) {
-					var obj = data[i];
-					if (obj && obj.sportRoot && obj.sportRoot == rootId && obj.startTime > currentTime) {
-						events.push(obj);
-					}
-				}
-			}
-
-			if (events.length === 1) {
-
-				showEvent(events[0]);
-			} else if (events.length > 1) {
-
-				showEvent(getRand(events));
-				setInterval(function () {
-					showEvent(getNext(events));
-				}, 3 * 1000);
-			}
-		}
-		
-		function getFlag(country) {
-			
-			var key = ("" + country).toLowerCase();
-			if(flags[key] !== undefined) {
-				return 'http://clickable-design.github.io/banners_html/fonbet_flags/' + flags[key];
-			}
-		}
-		
-		function getRand(array) {
-			
-			var key;
-			do {
-				key = parseInt(Math.random() * array.length);
-			} while(key == lastEventKey);
-			
-			lastEventKey = key;
-			
-			return array[lastEventKey];
-		}
-		
-		function getNext(array) {
-			
-			lastEventKey ++;
-			if(lastEventKey >= array.length) {
-				lastEventKey = 0;
-			}
-			//~ console.log(lastEventKey, array[lastEventKey]);
-			return array[lastEventKey];
-		}
-
-
-		function createRequest() {
-
-			var script = document.createElement('script');
-			script.type = "text/javascript";
-			script.src = "http://root-srv.fonbet.com/BetsService/line/news/all/ru?callback=fonbet_callback&" + Math.random();
-
-			document.head.appendChild(script);
-		}
-	</script>
 </head>
 <body onload="init();" style="background-color:#D4D4D4;margin:0px;">
 	<canvas id="canvas" width="600" height="300" style="background-color:#669933"></canvas>

@@ -9,11 +9,11 @@ lib.properties = {
 	fps: 30,
 	color: "#669933",
 	manifest: [
-		{src:"images/blick.png?1465551948152", id:"blick"},
-		{src:"images/circle_blick.png?1465551948152", id:"circle_blick"},
-		{src:"images/gaz.jpg?1465551948152", id:"gaz"},
-		{src:"images/zagl.png?1465551948152", id:"zagl"},
-		{src:"images/zagl_2.png?1465551948152", id:"zagl_2"}
+		{src:"images/blick.png?1465555129459", id:"blick"},
+		{src:"images/circle_blick.png?1465555129459", id:"circle_blick"},
+		{src:"images/gaz.jpg?1465555129459", id:"gaz"},
+		{src:"images/zagl.png?1465555129459", id:"zagl"},
+		{src:"images/zagl_2.png?1465555129459", id:"zagl_2"}
 	]
 };
 
@@ -51,6 +51,19 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,300);
 	this.initialize(img.zagl_2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,300,300);
+
+
+(lib.Символ38 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#000000").s().p("Egu2AXcMAAAgu3MBdtAAAMAAAAu3g");
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-300,-150,600,300);
 
 
 (lib.Символ37 = function(mode,startPosition,loop) {
@@ -423,6 +436,19 @@ p.nominalBounds = new cjs.Rectangle(-44.8,-13.7,89.7,27.5);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-44.8,-13.7,89.7,27.5);
+
+
+(lib.Символ39 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.Символ38();
+	this.instance.alpha = 0.32;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-300,-150,600,300);
 
 
 (lib.Символ36 = function(mode,startPosition,loop) {
@@ -871,6 +897,7 @@ p.nominalBounds = new cjs.Rectangle(-150,-150,300,300);
 	// Слой 2
 	this.instance = new lib.Символ32();
 	this.instance.setTransform(0.5,0.3);
+	this.instance.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,2,4);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#174613").s().p("Au3CPIAAkdIdvAAIAAEdg");
@@ -879,7 +906,31 @@ p.nominalBounds = new cjs.Rectangle(-150,-150,300,300);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-35.1,-14.3,286.1,57.3);
+p.nominalBounds = new cjs.Rectangle(-40.1,-14.3,291.1,57.3);
+
+
+(lib.Символ40 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_10 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(10).call(this.frame_10).wait(10));
+
+	// Слой 1
+	this.instance = new lib.Символ39();
+	this.instance.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({alpha:1},10).to({alpha:0},9).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-300,-150,600,300);
 
 
 (lib.Символ27 = function(mode,startPosition,loop) {
@@ -932,8 +983,80 @@ p.nominalBounds = new cjs.Rectangle(0,0,100,105.5);
 	// timeline functions:
 	this.frame_0 = function() {
 		var _this = this;
+		var lastEventKey = null;
+		var monts = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+		var flags = {
+			'австрия': 'austria.png',
+			'албания': 'albania.png',
+			'англия': 'england.png',
+			'бельгия': 'belgium.png',
+			'венгрия': 'hungary.png',
+			'германия': 'germany.png',
+			'ирландия': 'ireland.png',
+			'исландия': 'iceland.png',
+			'испания': 'spain.png',
+			'италия': 'italy.png',
+			'польша': 'poland.png',
+			'португалия': 'portugal.png',
+			'россия': 'russia.png',
+			'румыния': 'romania.png',
+			'сев. ирландия': 'north_ireland.png',
+			'словакия': 'slovakia.png',
+			'турция': 'turkey.png',
+			'украина': 'ukraine.png',
+			'уэльс': 'wales.png',
+			'франция': 'france.png',
+			'хорватия': 'croatia.png',
+			'чехия': 'czech.png',
+			'швейцария': 'switzerland.png',
+			'швеция': 'sweden.png',
 		
-		window.showEvent = function (event) {
+			'венесуэла': 'venezuela.png',
+			'уругвай': 'uruguay.png',
+			'сша': 'usa.png',
+			'перу': 'peru.png',
+			'парагвай': 'paraguay.png',
+			'панама': 'panama.png',
+			'мексика': 'mexico.png',
+			'ямайка': 'jamaica.png',
+			'гаити': 'haiti.png',
+			'эквадор': 'ecuador.png',
+			'коста-рика': 'costa_rica.png',
+			'колумбия': 'colombia.png',
+			'чили': 'chile.png',
+			'бразилия': 'brazil.png',
+			'боливия': 'bolivia.png',
+			'аргентина': 'argentina.png',
+		};
+		
+		window.fonbet_callback = function (data) {
+		
+			var rootId = 1; // футбол
+			var events = [];
+			var currentTime = new Date().getTime() / 1000;
+		
+			if (data && typeof data === 'object') {
+				for (var i in data) {
+					var obj = data[i];
+					if (obj && obj.sportRoot && obj.sportRoot == rootId && obj.startTime > currentTime) {
+						events.push(obj);
+					}
+				}
+			}
+		
+			if (events.length === 1) {
+		
+				showEvent(events[0]);
+			} else if (events.length > 1) {
+		
+				showEvent(getRand(events));
+				setInterval(function () {
+					showEvent(getNext(events));
+				}, 3 * 1000);
+			}
+		}
+		
+		showEvent = function (event) {
 		
 			var winFirst = event.factors[0]; // выиграет первая команда
 			var winNoBody = event.factors[1]; // ничья
@@ -963,7 +1086,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,100,105.5);
 			_this.koef_2.text.text = winSecond.value;
 		
 			_this.date.text.text = date;
-			
+		
 			_this.koef_1.blick.gotoAndPlay(1);
 			_this.koef_3.blick.gotoAndPlay(1);
 			_this.koef_2.blick.gotoAndPlay(1);
@@ -974,9 +1097,51 @@ p.nominalBounds = new cjs.Rectangle(0,0,100,105.5);
 		}
 		
 		function lpadTime(num) {
-					return ("00" + num).slice(-2);
-				}
+			return ("00" + num).slice(-2);
+		}
 		
+		
+		function getFlag(country) {
+		
+			var key = ("" + country).toLowerCase();
+			if (flags[key] !== undefined) {
+				//~ return '/media/flags_fonbet/' + flags[key];
+				return 'http://img1458.r.worldssl.net/media/flags_fonbet/' + flags[key];
+			}
+		}
+		
+		function getRand(array) {
+		
+			var key;
+			do {
+				key = parseInt(Math.random() * array.length);
+			} while (key == lastEventKey);
+		
+			lastEventKey = key;
+		
+			return array[lastEventKey];
+		}
+		
+		function getNext(array) {
+		
+			lastEventKey++;
+			if (lastEventKey >= array.length) {
+				lastEventKey = 0;
+			}
+			return array[lastEventKey];
+		}
+		
+		function createRequest() {
+		
+			var script = document.createElement('script');
+			script.type = "text/javascript";
+			script.src = "http://root-srv.fonbet.com/BetsService/line/news/all/ru?callback=fonbet_callback&" + Math.random();
+		
+			document.head.appendChild(script);
+		}
+		
+		createRequest();
+		//tweens
 		
 		var tween = createjs.Tween.get(this.flag_1, {
 			loop: true
@@ -993,20 +1158,26 @@ p.nominalBounds = new cjs.Rectangle(0,0,100,105.5);
 			y: 239
 		}, 1000, createjs.Ease.quadInOut);
 		
+		//clickTAG
+		
 		stage.canvas.addEventListener("click", fl_ClickToGoToWebPage);
 		function fl_ClickToGoToWebPage() {
 			window.open(clickTAG, "_blank");
+		}
+		
+		stage.canvas.addEventListener("mouseover", MouseOver);
+		function MouseOver() {
+			_this.black.gotoAndPlay(1);
+		}
+		
+		stage.canvas.addEventListener("mouseout", MouseOut);
+		function MouseOut() {
+			_this.black.gotoAndPlay(10);
 		}
 	}
 
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
-
-	// Слой 10
-	this.instance = new lib.Символ33();
-	this.instance.setTransform(243.1,269.2);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Слой 9
 	this.date = new lib.date();
@@ -1015,16 +1186,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,100,105.5);
 	this.timeline.addTween(cjs.Tween.get(this.date).wait(1));
 
 	// Слой 1
-	this.instance_1 = new lib.Символ18();
-	this.instance_1.setTransform(299.6,22.6,1,1,0,0,0,287.6,15.7);
+	this.instance = new lib.Символ18();
+	this.instance.setTransform(299.6,22.6,1,1,0,0,0,287.6,15.7);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Слой 2
-	this.instance_2 = new lib.Символ4();
-	this.instance_2.setTransform(300.1,174,0.967,0.967,0,0,0,50.1,50);
+	this.instance_1 = new lib.Символ4();
+	this.instance_1.setTransform(300.1,174,0.967,0.967,0,0,0,50.1,50);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// Слой 4
 	this.flag_2 = new lib.flag_2();
@@ -1035,13 +1206,19 @@ p.nominalBounds = new cjs.Rectangle(0,0,100,105.5);
 
 	this.kom_2 = new lib.kom_2();
 	this.kom_2.setTransform(431.6,134.7);
+	this.kom_2.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,2,4);
 
 	this.kom_1 = new lib.kom_1();
 	this.kom_1.setTransform(166.2,134.4);
+	this.kom_1.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,2,4);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.kom_1},{t:this.kom_2},{t:this.flag_1},{t:this.flag_2}]}).wait(1));
 
 	// Слой 6
+	this.instance_2 = new lib.Символ33();
+	this.instance_2.setTransform(243.1,269.2);
+	this.instance_2.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,2,4);
+
 	this.koef_3 = new lib.koef_3();
 	this.koef_3.setTransform(354.3,269);
 
@@ -1051,19 +1228,25 @@ p.nominalBounds = new cjs.Rectangle(0,0,100,105.5);
 	this.koef_1 = new lib.koef_1();
 	this.koef_1.setTransform(167.8,178.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.koef_1},{t:this.koef_2},{t:this.koef_3}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.koef_1},{t:this.koef_2},{t:this.koef_3},{t:this.instance_2}]}).wait(1));
 
-	// Слой 7
-	this.instance_3 = new lib.Символ12();
-	this.instance_3.setTransform(176,588,1,1,0,0,0,69,87);
-	this.instance_3.alpha = 0.781;
+	// Слой 3
+	this.instance_3 = new lib.Символ3();
+	this.instance_3.setTransform(298.9,177,1,1,0,0,0,304.9,154);
+	this.instance_3.alpha = 0.48;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
-	// Слой 3
-	this.instance_4 = new lib.Символ3();
-	this.instance_4.setTransform(298.9,177,1,1,0,0,0,304.9,154);
-	this.instance_4.alpha = 0.48;
+	// Слой 10
+	this.black = new lib.Символ40();
+	this.black.setTransform(300,150);
+
+	this.timeline.addTween(cjs.Tween.get(this.black).wait(1));
+
+	// Слой 7
+	this.instance_4 = new lib.Символ12();
+	this.instance_4.setTransform(176,588,1,1,0,0,0,69,87);
+	this.instance_4.alpha = 0.781;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
