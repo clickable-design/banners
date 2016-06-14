@@ -9,9 +9,9 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/bg_main.jpg?1465910683805", id:"bg_main"},
-		{src:"images/jojo.png?1465910683805", id:"jojo"},
-		{src:"images/mans.png?1465910683805", id:"mans"}
+		{src:"images/bg_main.jpg?1465911860638", id:"bg_main"},
+		{src:"images/jojo.png?1465911860638", id:"jojo"},
+		{src:"images/mans.png?1465911860638", id:"mans"}
 	]
 };
 
