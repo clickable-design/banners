@@ -9,9 +9,9 @@ lib.properties = {
 	fps: 30,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/Path_5.png?1466524126598", id:"Path_5"},
-		{src:"images/green1.png?1466524126598", id:"green1"},
-		{src:"images/stripe.png?1466524126598", id:"stripe"}
+		{src:"images/Path_5.png?1466524935807", id:"Path_5"},
+		{src:"images/green1.png?1466524935807", id:"green1"},
+		{src:"images/stripe.png?1466524935807", id:"stripe"}
 	]
 };
 
@@ -1516,9 +1516,7 @@ p.nominalBounds = new cjs.Rectangle(-237,-143.7,474.2,209.3);
 		
 		var onClick = function(evt) {
 			console.log('click')
-			if(clickkyTAG){
-			window.open(clickkyTAG, "_blank");
-			}
+			window.open(mixTAG, "_blank");
 		};
 		
 		stage.canvas.addEventListener("click", onClick_1, false);
