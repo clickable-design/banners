@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dialog_banner</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://mxtads.com/cd-js/createjs-2015.11.26.min.js"></script>
+<script src="dialog_banner.js?1466666751966"></script>
+<script>
+var canvas, stage, exportRoot;
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib.dialog_banner();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+
+</script>
+<style>
+   @font-face {
+	/* cyrillic */
+	@font-face {
+	  font-family: 'Roboto';
+	  font-style: normal;
+	  font-weight: 500;
+	  src: local('Roboto Medium'), local('Roboto-Medium'), url(fonts/oHi30kwQWvpCWqAhzHcCSIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+	  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	  }
+	/* latin */
+	@font-face {
+	  font-family: 'Roboto';
+	  font-style: normal;
+	  font-weight: 500;
+	  src: local('Roboto Medium'), local('Roboto-Medium'), url(fonts/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+	  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+	  }
+	canvas {
+	    font-family: Pompadur;
+	  }
+  </style>
+</head>
+<body onload="init();" style="background-color:#D4D4D4;margin:0px;">
+	<canvas id="canvas"></canvas>
+</body>
+</html>

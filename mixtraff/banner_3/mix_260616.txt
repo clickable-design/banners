@@ -1,0 +1,10 @@
+window.postMessage({
+	key: 'mix_260616', 
+	icon: 'http://imagestun.com/hosting/kartinki/icon.png', 
+	title: 'Application Nname', 
+	company: 'App Company', 
+	age: '+3', 
+	rating: '3,4', 
+	target_url: 'http://example.com'
+}, '*')
+
