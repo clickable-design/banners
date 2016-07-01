@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>app_banner</title>
+<script>mixTAG = '{REDIRECT_URL}';</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://mxtads.com/cd-js/createjs-2015.11.26.min.js"></script>
+<script src="app_banner.js?1467366202721"></script>
+<script>
+var canvas, stage, exportRoot;
+function init() {
+	canvas = document.getElementById("canvas");
+	exportRoot = new lib.app_banner();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+
+</script>
+</head>
+<body onload="init();" style="background-color:#D4D4D4;margin:0px;">
+	<canvas id="canvas" width="960" height="960" style="background-color:#FFFFFF"></canvas>
+</body>
+</html>
