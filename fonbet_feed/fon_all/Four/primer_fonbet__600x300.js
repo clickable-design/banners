@@ -9,11 +9,11 @@ lib.properties = {
 	fps: 30,
 	color: "#006699",
 	manifest: [
-		{src:"images/circle_blick.png?1468329061900", id:"circle_blick"},
-		{src:"images/silli.png?1468329061900", id:"silli"},
-		{src:"images/zagl.png?1468329061900", id:"zagl"},
-		{src:"images/zagl_2.png?1468329061900", id:"zagl_2"},
-		{src:"images/Растровоеизображение12.jpg?1468329061900", id:"Растровоеизображение12"}
+		{src:"images/circle_blick.png?1468329272354", id:"circle_blick"},
+		{src:"images/gozon.jpg?1468329272354", id:"gozon"},
+		{src:"images/silli.png?1468329272354", id:"silli"},
+		{src:"images/zagl.png?1468329272354", id:"zagl"},
+		{src:"images/zagl_2.png?1468329272354", id:"zagl_2"}
 	]
 };
 
@@ -27,6 +27,12 @@ lib.properties = {
 	this.initialize(img.circle_blick);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,320,320);
+
+
+(lib.gozon = function() {
+	this.initialize(img.gozon);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,730,481);
 
 
 (lib.silli = function() {
@@ -45,12 +51,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,300);
 	this.initialize(img.zagl_2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,300,300);
-
-
-(lib.Растровоеизображение12 = function() {
-	this.initialize(img.Растровоеизображение12);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,730,481);
 
 
 (lib.Символ73 = function(mode,startPosition,loop) {
@@ -279,7 +279,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,113.6,13.4);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib.Растровоеизображение12();
+	this.instance = new lib.gozon();
 	this.instance.setTransform(-45.5,55.3,1,1.299);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
