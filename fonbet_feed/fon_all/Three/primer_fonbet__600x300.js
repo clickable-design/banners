@@ -9,11 +9,11 @@ lib.properties = {
 	fps: 30,
 	color: "#006699",
 	manifest: [
-		{src:"images/circle_blick.png?1468327799498", id:"circle_blick"},
-		{src:"images/fon2jpgкопия2.jpg?1468327799498", id:"fon2jpgкопия2"},
-		{src:"images/silli.png?1468327799498", id:"silli"},
-		{src:"images/zagl.png?1468327799498", id:"zagl"},
-		{src:"images/zagl_2.png?1468327799498", id:"zagl_2"}
+		{src:"images/circle_blick.png?1468329061900", id:"circle_blick"},
+		{src:"images/silli.png?1468329061900", id:"silli"},
+		{src:"images/zagl.png?1468329061900", id:"zagl"},
+		{src:"images/zagl_2.png?1468329061900", id:"zagl_2"},
+		{src:"images/Растровоеизображение12.jpg?1468329061900", id:"Растровоеизображение12"}
 	]
 };
 
@@ -27,12 +27,6 @@ lib.properties = {
 	this.initialize(img.circle_blick);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,320,320);
-
-
-(lib.fon2jpgкопия2 = function() {
-	this.initialize(img.fon2jpgкопия2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,846,595);
 
 
 (lib.silli = function() {
@@ -51,6 +45,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,300);
 	this.initialize(img.zagl_2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,300,300);
+
+
+(lib.Растровоеизображение12 = function() {
+	this.initialize(img.Растровоеизображение12);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,730,481);
 
 
 (lib.Символ73 = function(mode,startPosition,loop) {
@@ -279,13 +279,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,113.6,13.4);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib.fon2jpgкопия2();
-	this.instance.setTransform(0,172.5,0.745,1);
+	this.instance = new lib.Растровоеизображение12();
+	this.instance.setTransform(-45.5,55.3,1,1.299);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,172.5,630,595);
+p.nominalBounds = new cjs.Rectangle(-45.5,55.3,730,624.8);
 
 
 (lib.Символ38 = function(mode,startPosition,loop) {
@@ -542,7 +542,7 @@ p.nominalBounds = new cjs.Rectangle(0,0.5,161.6,46.7);
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:331.7},14,cjs.Ease.get(-1)).to({y:326.5},15,cjs.Ease.get(1)).to({y:331.9},16,cjs.Ease.get(-1)).to({y:336.5},14,cjs.Ease.get(1)).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,192.5,630,595);
+p.nominalBounds = new cjs.Rectangle(-45.5,75.3,730,624.8);
 
 
 (lib.Символ39 = function(mode,startPosition,loop) {
@@ -596,19 +596,19 @@ p.nominalBounds = null;
 
 	// Слой 2
 	this.instance = new lib.Символ71();
-	this.instance.setTransform(357,396.5,1,1,0,0,0,234.5,94);
+	this.instance.setTransform(345.9,363.2,0.747,0.747,0,0,0,234.5,94);
 	this.instance.alpha = 0.59;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Слой 1
 	this.instance_1 = new lib.Символ42();
-	this.instance_1.setTransform(316.5,297,1,0.72,0,0,0,316.5,316.5);
+	this.instance_1.setTransform(316.5,310.3,1,0.72,0,0,0,316.5,316.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,207.7,630,428.5);
+p.nominalBounds = new cjs.Rectangle(-45.5,136.6,730,449.9);
 
 
 (lib.ClipGroup = function(mode,startPosition,loop) {
@@ -1104,8 +1104,7 @@ p.nominalBounds = new cjs.Rectangle(-1,0,120.3,35.5);
 
 	// Слой 7
 	this.instance_19 = new lib.Символ7();
-	this.instance_19.setTransform(294.5,70,1,1,0,0,0,316.5,316.5);
-	this.instance_19.alpha = 0.5;
+	this.instance_19.setTransform(290.5,73,0.947,0.947,0,0,0,316.5,316.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(1));
 
@@ -1116,7 +1115,7 @@ p.nominalBounds = new cjs.Rectangle(-1,0,120.3,35.5);
 	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-505.9,111.2,1624.8,553.9);
+p.nominalBounds = new cjs.Rectangle(-505.9,52.6,1624.8,612.5);
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 var lib, images, createjs, ss;
