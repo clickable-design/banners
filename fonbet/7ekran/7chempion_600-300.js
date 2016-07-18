@@ -9,18 +9,18 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/bra.jpg?1468325490619", id:"bra"},
-		{src:"images/cube.png?1468325490619", id:"cube"},
-		{src:"images/fi.jpg?1468325490619", id:"fi"},
-		{src:"images/fo.jpg?1468325490619", id:"fo"},
-		{src:"images/fra.jpg?1468325490619", id:"fra"},
-		{src:"images/ger.jpg?1468325490619", id:"ger"},
-		{src:"images/ita.jpg?1468325490619", id:"ita"},
-		{src:"images/on.jpg?1468325490619", id:"on"},
-		{src:"images/si.jpg?1468325490619", id:"si"},
-		{src:"images/spa.jpg?1468325490619", id:"spa"},
-		{src:"images/tr.jpg?1468325490619", id:"tr"},
-		{src:"images/tw.jpg?1468325490619", id:"tw"}
+		{src:"images/bra.jpg?1468331024087", id:"bra"},
+		{src:"images/cube.png?1468331024087", id:"cube"},
+		{src:"images/fi.jpg?1468331024087", id:"fi"},
+		{src:"images/fo.jpg?1468331024087", id:"fo"},
+		{src:"images/fra.jpg?1468331024087", id:"fra"},
+		{src:"images/ger.jpg?1468331024087", id:"ger"},
+		{src:"images/ita.jpg?1468331024087", id:"ita"},
+		{src:"images/on.jpg?1468331024087", id:"on"},
+		{src:"images/si.jpg?1468331024087", id:"si"},
+		{src:"images/spa.jpg?1468331024087", id:"spa"},
+		{src:"images/tr.jpg?1468331024087", id:"tr"},
+		{src:"images/tw.jpg?1468331024087", id:"tw"}
 	]
 };
 
@@ -776,7 +776,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,235.6,69.5);
 
 	// Режим изоляции
 	this.instance_2 = new lib.Символ9();
-	this.instance_2.setTransform(64.3,20,0.468,0.468,0,0,0,117.7,34.8);
+	this.instance_2.setTransform(79.4,25.4,0.595,0.595,0,0,0,117.8,34.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
 
