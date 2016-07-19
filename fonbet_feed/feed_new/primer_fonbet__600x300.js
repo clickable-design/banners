@@ -9,9 +9,9 @@ lib.properties = {
 	fps: 30,
 	color: "#006699",
 	manifest: [
-		{src:"images/energyball.png?1468923617234", id:"energyball"},
-		{src:"images/gozon.jpg?1468923617234", id:"gozon"},
-		{src:"images/shadow.png?1468923617234", id:"shadow"}
+		{src:"images/energyball.png?1468924883619", id:"energyball"},
+		{src:"images/gozon.jpg?1468924883619", id:"gozon"},
+		{src:"images/shadow.png?1468924883619", id:"shadow"}
 	]
 };
 
@@ -198,9 +198,9 @@ p.nominalBounds = new cjs.Rectangle(4.6,4.9,31.6,17.3);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 2
-	this.text = new cjs.Text(" ", "italic bold 23px 'Exo 2.0'", "#FFFFFF");
+	this.text = new cjs.Text(" ", "italic bold 23px 'Roboto'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 30;
+	this.text.lineHeight = 29;
 	this.text.lineWidth = 155;
 	this.text.setTransform(-2,-16.4);
 
@@ -214,9 +214,9 @@ p.nominalBounds = new cjs.Rectangle(-79.4,-16.4,158.8,36.4);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 3
-	this.text = new cjs.Text(" ", "italic bold 23px 'Exo 2.0'", "#FFFFFF");
+	this.text = new cjs.Text(" ", "italic bold 23px 'Roboto'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 30;
+	this.text.lineHeight = 29;
 	this.text.lineWidth = 153;
 	this.text.setTransform(-0.7,-16.4);
 
@@ -438,11 +438,11 @@ p.nominalBounds = new cjs.Rectangle(-97,-15.7,194.1,31.4);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 2
-	this.text = new cjs.Text(" ", "italic bold 24px 'Exo 2.0'", "#FFFFFF");
+	this.text = new cjs.Text(" ", "italic bold 24px 'Roboto'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 31;
+	this.text.lineHeight = 30;
 	this.text.lineWidth = 100;
-	this.text.setTransform(42.8,-17.8);
+	this.text.setTransform(42.8,-15.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
@@ -455,18 +455,18 @@ p.nominalBounds = new cjs.Rectangle(-97,-15.7,194.1,31.4);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-97,-17.8,194.1,33.6);
+p.nominalBounds = new cjs.Rectangle(-97,-15.8,194.1,32.8);
 
 
 (lib.koeff_2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 2
-	this.text = new cjs.Text(" ", "italic bold 24px 'Exo 2.0'", "#FFFFFF");
+	this.text = new cjs.Text(" ", "italic bold 24px 'Roboto'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 31;
+	this.text.lineHeight = 30;
 	this.text.lineWidth = 100;
-	this.text.setTransform(43.2,-19.8);
+	this.text.setTransform(43.2,-15.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
@@ -483,18 +483,18 @@ p.nominalBounds = new cjs.Rectangle(-97,-17.8,194.1,33.6);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-97,-19.8,194.3,35.6);
+p.nominalBounds = new cjs.Rectangle(-97,-15.8,194.3,32.8);
 
 
 (lib.koeff_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 3
-	this.text = new cjs.Text(" ", "italic bold 24px 'Exo 2.0'", "#FFFFFF");
+	this.text = new cjs.Text(" ", "italic bold 24px 'Roboto'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 31;
+	this.text.lineHeight = 30;
 	this.text.lineWidth = 100;
-	this.text.setTransform(88,-18.7);
+	this.text.setTransform(88,-16.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
@@ -511,7 +511,7 @@ p.nominalBounds = new cjs.Rectangle(-97,-19.8,194.3,35.6);
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-49.6,-18.7,194.2,35.2);
+p.nominalBounds = new cjs.Rectangle(-49.6,-16.7,194.2,35.2);
 
 
 (lib.ClipGroup = function(mode,startPosition,loop) {
@@ -558,9 +558,9 @@ p.nominalBounds = new cjs.Rectangle(-68.5,-72,137,144);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 2
-	this.text = new cjs.Text(" ", "italic bold 18px 'Exo 2.0'", "#FFFFFF");
+	this.text = new cjs.Text(" ", "italic bold 18px 'Roboto'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 24;
+	this.text.lineHeight = 23;
 	this.text.lineWidth = 280;
 	this.text.setTransform(-2,-27.4);
 
