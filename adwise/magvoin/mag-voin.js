@@ -551,6 +551,8 @@ p.nominalBounds = new cjs.Rectangle(-32.5,-25,622.5,1152.2);
 			
 			_this.woman.alpha = 1;
 			_this.bottom.alpha = 1;
+
+			_this.plate.scaleX = _this.plate.scaleY = 1;
 			
 			if(windowSize.width<737){
 				
