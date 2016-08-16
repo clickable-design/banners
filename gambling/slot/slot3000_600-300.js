@@ -9,17 +9,17 @@ lib.properties = {
 	fps: 30,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/b1.png?1471354610446", id:"b1"},
-		{src:"images/b2.png?1471354610446", id:"b2"},
-		{src:"images/b3.png?1471354610446", id:"b3"},
-		{src:"images/back.jpg?1471354610446", id:"back"},
-		{src:"images/bt2.png?1471354610446", id:"bt2"},
-		{src:"images/doll.png?1471354610446", id:"doll"},
-		{src:"images/pole.png?1471354610446", id:"pole"},
-		{src:"images/radial.png?1471354610446", id:"radial"},
-		{src:"images/slotto.png?1471354610446", id:"slotto"},
-		{src:"images/tree.png?1471354610446", id:"tree"},
-		{src:"images/zero.png?1471354610446", id:"zero"}
+		{src:"images/b1.png?1471355013307", id:"b1"},
+		{src:"images/b2.png?1471355013307", id:"b2"},
+		{src:"images/b3.png?1471355013307", id:"b3"},
+		{src:"images/back.jpg?1471355013307", id:"back"},
+		{src:"images/bt2.png?1471355013307", id:"bt2"},
+		{src:"images/doll.png?1471355013307", id:"doll"},
+		{src:"images/pole.png?1471355013307", id:"pole"},
+		{src:"images/radial.png?1471355013307", id:"radial"},
+		{src:"images/slotto.png?1471355013307", id:"slotto"},
+		{src:"images/tree.png?1471355013307", id:"tree"},
+		{src:"images/zero.png?1471355013307", id:"zero"}
 	]
 };
 
@@ -471,7 +471,7 @@ p.nominalBounds = new cjs.Rectangle(4,3.7,518.4,31.5);
 	this.instance_1 = new lib.Символ22();
 	this.instance_1.setTransform(390.8,67.3,1,0.899,0,0,0,389.5,67.6);
 	this.instance_1.alpha = 0.102;
-	this.instance_1.shadow = new cjs.Shadow("rgba(102,204,0,1)",0,0,16);
+	this.instance_1.shadow = new cjs.Shadow("rgba(0,0,0,1)",3,3,4);
 	this.instance_1.compositeOperation = "lighter";
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({alpha:0.23},0).to({_off:true},1).wait(2));
@@ -479,12 +479,12 @@ p.nominalBounds = new cjs.Rectangle(4,3.7,518.4,31.5);
 	// Слой 1
 	this.instance_2 = new lib.Символ22();
 	this.instance_2.setTransform(390.8,67.3,1,0.899,0,0,0,389.5,67.6);
-	this.instance_2.shadow = new cjs.Shadow("rgba(102,204,0,1)",0,0,16);
+	this.instance_2.shadow = new cjs.Shadow("rgba(0,0,0,1)",3,3,4);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(4));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-26.5,-6.5,677,149);
+p.nominalBounds = new cjs.Rectangle(-9.5,10.5,643,115);
 
 
 (lib.Символ23 = function(mode,startPosition,loop) {
@@ -769,7 +769,7 @@ p.nominalBounds = new cjs.Rectangle(380.7,230.9,521.4,119.5);
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:1.02,scaleY:1.02},9,cjs.Ease.get(-1)).to({scaleX:1.05,scaleY:1.05},10,cjs.Ease.get(1)).to({scaleX:1.03,scaleY:1.03},10,cjs.Ease.get(-1)).to({scaleX:1,scaleY:1},10,cjs.Ease.get(1)).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-26.5,-6.5,677,149);
+p.nominalBounds = new cjs.Rectangle(-9.5,10.5,643,115);
 
 
 (lib.Символ39 = function(mode,startPosition,loop) {
@@ -898,31 +898,31 @@ p.nominalBounds = new cjs.Rectangle(-254.1,-426.1,1290.1,1126.2);
 
 	// Символ 8
 	this.instance_1 = new lib.Символ8();
-	this.instance_1.setTransform(-228.4,488.5,1,1,0,0,0,108.5,640.5);
+	this.instance_1.setTransform(-228.4,481.5,1,1,0,0,0,108.5,640.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// Символ 3
 	this.instance_2 = new lib.Символ3();
-	this.instance_2.setTransform(524.5,138,1,1,0,0,0,49,68.5);
+	this.instance_2.setTransform(524.5,131,1,1,0,0,0,49,68.5);
 
 	this.instance_3 = new lib.Символ3();
-	this.instance_3.setTransform(418,138,1,1,0,0,0,49,68.5);
+	this.instance_3.setTransform(418,131,1,1,0,0,0,49,68.5);
 
 	this.instance_4 = new lib.Символ3();
-	this.instance_4.setTransform(306.5,138,1,1,0,0,0,49,68.5);
+	this.instance_4.setTransform(306.5,131,1,1,0,0,0,49,68.5);
 
 	this.instance_5 = new lib.Символ3();
-	this.instance_5.setTransform(195,138,1,1,0,0,0,49,68.5);
+	this.instance_5.setTransform(195,131,1,1,0,0,0,49,68.5);
 
 	this.instance_6 = new lib.Символ3();
-	this.instance_6.setTransform(83.5,138,1,1,0,0,0,49,68.5);
+	this.instance_6.setTransform(83.5,131,1,1,0,0,0,49,68.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2}]}).wait(1));
 
 	// Символ 1
 	this.instance_7 = new lib.Символ1();
-	this.instance_7.setTransform(303.5,246.3,0.882,0.882,0,0,0,312.5,61.5);
+	this.instance_7.setTransform(303.5,243.3,0.882,0.882,0,0,0,312.5,61.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(1));
 
@@ -933,7 +933,7 @@ p.nominalBounds = new cjs.Rectangle(-254.1,-426.1,1290.1,1126.2);
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(107.6,-969.7,976.9,1875.6);
+p.nominalBounds = new cjs.Rectangle(107.6,-976.7,976.9,1875.6);
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 var lib, images, createjs, ss;
