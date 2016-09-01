@@ -10,21 +10,21 @@ lib.properties = {
 	color: "#666666",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/banner.png?1472718863872", id:"banner"},
-		{src:"images/bg2.png?1472718863872", id:"bg2"},
-		{src:"images/body_1.png?1472718863872", id:"body_1"},
-		{src:"images/body_2.png?1472718863872", id:"body_2"},
-		{src:"images/btn.png?1472718863872", id:"btn"},
-		{src:"images/eye_1.png?1472718863872", id:"eye_1"},
-		{src:"images/eye_bow.png?1472718863872", id:"eye_bow"},
-		{src:"images/fire.png?1472718863872", id:"fire"},
-		{src:"images/front.png?1472718863872", id:"front"},
-		{src:"images/gun.png?1472718863872", id:"gun"},
-		{src:"images/hand_1.png?1472718863872", id:"hand_1"},
-		{src:"images/hand_2.png?1472718863872", id:"hand_2"},
-		{src:"images/moon.png?1472718863872", id:"moon"},
-		{src:"images/mouth_1.png?1472718863872", id:"mouth_1"},
-		{src:"images/mouth_2.png?1472718863872", id:"mouth_2"}
+		{src:"images/banner.png?1472720030911", id:"banner"},
+		{src:"images/bg2.png?1472720030911", id:"bg2"},
+		{src:"images/body_1.png?1472720030911", id:"body_1"},
+		{src:"images/body_2.png?1472720030911", id:"body_2"},
+		{src:"images/btn.png?1472720030911", id:"btn"},
+		{src:"images/eye_1.png?1472720030911", id:"eye_1"},
+		{src:"images/eye_bow.png?1472720030911", id:"eye_bow"},
+		{src:"images/fire.png?1472720030911", id:"fire"},
+		{src:"images/front.png?1472720030911", id:"front"},
+		{src:"images/gun.png?1472720030911", id:"gun"},
+		{src:"images/hand_1.png?1472720030911", id:"hand_1"},
+		{src:"images/hand_2.png?1472720030911", id:"hand_2"},
+		{src:"images/moon.png?1472720030911", id:"moon"},
+		{src:"images/mouth_1.png?1472720030911", id:"mouth_1"},
+		{src:"images/mouth_2.png?1472720030911", id:"mouth_2"}
 	]
 };
 
@@ -1121,6 +1121,9 @@ p.nominalBounds = new cjs.Rectangle(-47.5,-40.2,95.1,81.4);
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
+	this.frame_91 = function() {
+		this.parent.pricel.bow.gotoAndPlay(1);
+	}
 	this.frame_93 = function() {
 		this.parent.green_1.gotoAndPlay(50);
 		this.parent.green_2.stop(0);
@@ -1133,7 +1136,7 @@ p.nominalBounds = new cjs.Rectangle(-47.5,-40.2,95.1,81.4);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(93).call(this.frame_93).wait(101).call(this.frame_194).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(91).call(this.frame_91).wait(2).call(this.frame_93).wait(101).call(this.frame_194).wait(1));
 
 	// Layer 2
 	this.instance = new lib.Symbol1();
@@ -1736,6 +1739,7 @@ p.nominalBounds = null;
 		
 		this.green_1.addEventListener("click", ClickGreen_1.bind(this));
 		function ClickGreen_1() {
+			_this.pricel.bow.gotoAndPlay(1);
 			_this.green_1.gotoAndPlay(50);
 			_this.green_2.stop(0);
 			_this.green_2.visible = false;
@@ -1745,6 +1749,7 @@ p.nominalBounds = null;
 		
 		this.green_2.addEventListener("click", ClickGreen_2.bind(this));
 		function ClickGreen_2() {
+			_this.pricel.bow.gotoAndPlay(1);
 			_this.green_2.gotoAndPlay(54);
 			_this.green_1.visible = false;
 			_this.green_1.stop(0);
