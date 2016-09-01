@@ -1717,6 +1717,7 @@ p.nominalBounds = null;
 		}
 			
 		stage.canvas.onmouseover = function() {
+			_this.title.visible = true;
 		    _this.target.visible = true;
 			_this.green_1.gotoAndPlay(0);
 			_this.green_2.gotoAndStop(0);
