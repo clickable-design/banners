@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>banner_monster</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="banner_monster.js?1464333966291"></script>
+<script>
+var canvas, stage, exportRoot;
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib.banner_monster();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+
+</script>
+<style type="text/css">
+canvas {
+		-cursor: default;
+		user-select: none;           
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-webkit-tap-highlight-color: transparent;
+		-ms-user-select: none;
+		-webkit-touch-callout: none;
+	  }
+</style>
+</head>
+<body onload="init();" style="background-color:#D4D4D4;margin:0px;">
+	<canvas id="canvas" width="960" height="960" style="background:url(images/bg_cover_m.svg) center no-repeat;background-size:cover;"></canvas>
+</body>
+</html>
