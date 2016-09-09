@@ -14,7 +14,7 @@
 
 
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="dark_demon_640x305.js?1473420548575"></script>
+<script src="dark_demon_640x305.js?1473423007833"></script>
 <script>
 var canvas, stage, exportRoot;
 function init() {
@@ -39,6 +39,7 @@ function handleComplete(evt) {
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);
 	stage.update();
+	stage.enableMouseOver();
 
 	createjs.Ticker.setFPS(lib.properties.fps);
 	createjs.Ticker.addEventListener("tick", stage);
