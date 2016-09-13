@@ -761,14 +761,26 @@ p.nominalBounds = new cjs.Rectangle(-22.2,-22.2,44.5,44.5);
 (lib.Символ61 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_1 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
 	// Слой 1
 	this.instance = new lib.Символ62();
 	this.instance.setTransform(-13.1,1.4);
+	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-35.3,-20.8,44.5,44.5);
+p.nominalBounds = null;
 
 
 (lib.Символ57 = function(mode,startPosition,loop) {
@@ -1572,6 +1584,7 @@ p.nominalBounds = new cjs.Rectangle(-105.9,-37.9,245.7,84.5);
 		
 		function fl_MouseOverHandler_5() {
 			_this.movieClip_2.gotoAndStop(1);
+			_this.movieClip_3.gotoAndStop(1);
 			_this.basket.gotoAndStop(1);
 			_this.txt.gotoAndPlay(1);
 		}
@@ -1584,6 +1597,7 @@ p.nominalBounds = new cjs.Rectangle(-105.9,-37.9,245.7,84.5);
 			_this.movieClip_2.gotoAndStop(0);
 			_this.basket.gotoAndStop(0);
 			_this.txt.gotoAndPlay(5);
+			_this.movieClip_3.gotoAndStop(0);
 		}
 		
 		document.addEventListener("click", fl_ClickToGoToWebPage);
