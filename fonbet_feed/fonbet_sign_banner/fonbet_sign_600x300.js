@@ -1484,10 +1484,10 @@ p.nominalBounds = new cjs.Rectangle(-28.3,-127.1,657.6,538.2);
 		}
 		
 		createRequest();
-		stage.scaleX = stage.scaleY = 3;
+		stage.scaleX = stage.scaleY = 2;
 		stage.enableMouseOver(100);
-		stage.canvas.width = 600 * 3;
-		stage.canvas.height = 300 * 3;
+		stage.canvas.width = 600 * 2;
+		stage.canvas.height = 300 * 2;
 		stage.canvas.style.width = '600px';
 		stage.canvas.style.height = '300px';
 		
