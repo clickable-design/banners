@@ -10,7 +10,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bgg.png?1474031139952", id:"bgg"}
+		{src:"images/bgg.png?1474032458598", id:"bgg"}
 	]
 };
 
@@ -49,7 +49,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,32,23.3);
 	// Layer 1
 	this.text = new cjs.Text("КУРСОМ ЗАВТРА", "italic bold 34px 'Roboto'", "#333333");
 	this.text.lineHeight = 42;
-	this.text.lineWidth = 280;
+	this.text.lineWidth = 318;
 	this.text.parent = this;
 	this.text.setTransform(16,9.7,1.382,1.382);
 
@@ -60,7 +60,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,32,23.3);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.text}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,416.1,72.6);
+p.nominalBounds = new cjs.Rectangle(0,0,458.2,72.6);
 
 
 (lib.Symbol3 = function(mode,startPosition,loop) {
@@ -69,7 +69,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,416.1,72.6);
 	// Layer 1
 	this.text = new cjs.Text("УЗНАЙ ЧТО БУДЕТ С", "italic bold 34px 'Roboto'", "#333333");
 	this.text.lineHeight = 42;
-	this.text.lineWidth = 335;
+	this.text.lineWidth = 383;
 	this.text.parent = this;
 	this.text.setTransform(17.1,9.7,1.382,1.382);
 
@@ -80,7 +80,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,416.1,72.6);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.text}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,482.9,72.6);
+p.nominalBounds = new cjs.Rectangle(0,0,548.4,72.6);
 
 
 (lib.Symbol2 = function(mode,startPosition,loop) {
@@ -189,7 +189,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,55.7,55.7);
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({scaleX:1.02,scaleY:1.02,x:172.8,y:35.4},3,cjs.Ease.get(-1)).to({scaleX:1.05,scaleY:1.05,x:177.3,y:34.4},3,cjs.Ease.get(1)).to({regX:168.3,scaleX:1.02,scaleY:1.02,x:172.8,y:35.4},4,cjs.Ease.get(-1)).to({regX:168.2,scaleX:1,scaleY:1,x:168.2,y:36.3},4,cjs.Ease.get(1)).wait(15));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,482.9,150.8);
+p.nominalBounds = new cjs.Rectangle(0,0,548.4,150.8);
 
 
 (lib.Symbol11 = function(mode,startPosition,loop) {
