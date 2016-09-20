@@ -10,31 +10,31 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ahaha.png?1474364991894", id:"ahaha"},
-		{src:"images/asd.png?1474364991894", id:"asd"},
-		{src:"images/cvbcv.png?1474364991894", id:"cvbcv"},
-		{src:"images/dfg.png?1474364991894", id:"dfg"},
-		{src:"images/dkdkd.png?1474364991894", id:"dkdkd"},
-		{src:"images/ert.png?1474364991894", id:"ert"},
-		{src:"images/fagagadf.jpg?1474364991894", id:"fagagadf"},
-		{src:"images/fgh.png?1474364991894", id:"fgh"},
-		{src:"images/gjhjg.png?1474364991894", id:"gjhjg"},
-		{src:"images/logo1.png?1474364991894", id:"logo1"},
-		{src:"images/office365logo1.png?1474364991894", id:"office365logo1"},
-		{src:"images/office365logo2.png?1474364991894", id:"office365logo2"},
-		{src:"images/qwe.png?1474364991894", id:"qwe"},
-		{src:"images/qwe3.jpg?1474364991894", id:"qwe3"},
-		{src:"images/rty.png?1474364991894", id:"rty"},
-		{src:"images/sdf.png?1474364991894", id:"sdf"},
-		{src:"images/sjsjs.png?1474364991894", id:"sjsjs"},
-		{src:"images/trtrtr.png?1474364991894", id:"trtrtr"},
-		{src:"images/tyu.png?1474364991894", id:"tyu"},
-		{src:"images/vbnvbbv.png?1474364991894", id:"vbnvbbv"},
-		{src:"images/w256h2561380453915MouseOptions256x256321111.png?1474364991894", id:"w256h2561380453915MouseOptions256x256321111"},
-		{src:"images/wer.png?1474364991894", id:"wer"},
-		{src:"images/xcvxccx.png?1474364991894", id:"xcvxccx"},
-		{src:"images/yui.png?1474364991894", id:"yui"},
-		{src:"images/zxcxcz.png?1474364991894", id:"zxcxcz"}
+		{src:"images/ahaha.png?1474381548826", id:"ahaha"},
+		{src:"images/asd.png?1474381548826", id:"asd"},
+		{src:"images/cvbcv.png?1474381548826", id:"cvbcv"},
+		{src:"images/dfg.png?1474381548826", id:"dfg"},
+		{src:"images/dkdkd.png?1474381548826", id:"dkdkd"},
+		{src:"images/ert.png?1474381548826", id:"ert"},
+		{src:"images/fagagadf.jpg?1474381548826", id:"fagagadf"},
+		{src:"images/fgh.png?1474381548826", id:"fgh"},
+		{src:"images/gjhjg.png?1474381548826", id:"gjhjg"},
+		{src:"images/logo1.png?1474381548826", id:"logo1"},
+		{src:"images/office365logo1.png?1474381548826", id:"office365logo1"},
+		{src:"images/office365logo2.png?1474381548826", id:"office365logo2"},
+		{src:"images/qwe.png?1474381548826", id:"qwe"},
+		{src:"images/qwe3.jpg?1474381548826", id:"qwe3"},
+		{src:"images/rty.png?1474381548826", id:"rty"},
+		{src:"images/sdf.png?1474381548826", id:"sdf"},
+		{src:"images/sjsjs.png?1474381548826", id:"sjsjs"},
+		{src:"images/trtrtr.png?1474381548826", id:"trtrtr"},
+		{src:"images/tyu.png?1474381548826", id:"tyu"},
+		{src:"images/vbnvbbv.png?1474381548826", id:"vbnvbbv"},
+		{src:"images/w256h2561380453915MouseOptions256x256321111.png?1474381548826", id:"w256h2561380453915MouseOptions256x256321111"},
+		{src:"images/wer.png?1474381548826", id:"wer"},
+		{src:"images/xcvxccx.png?1474381548826", id:"xcvxccx"},
+		{src:"images/yui.png?1474381548826", id:"yui"},
+		{src:"images/zxcxcz.png?1474381548826", id:"zxcxcz"}
 	]
 };
 
@@ -195,6 +195,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,59,21);
 	this.initialize(img.zxcxcz);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,16,37);
+
+
+(lib.Символ105 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.lf(["#000000","rgba(0,0,0,0)"],[0.482,1],0,37,0,-36.9).s().p("A5/FxIAArhMAz/AAAIAALhg");
+	this.shape.setTransform(0,-13);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-166.4,-49.9,333,74);
 
 
 (lib.Символ104 = function(mode,startPosition,loop) {
@@ -888,6 +902,20 @@ p.nominalBounds = new cjs.Rectangle(-16,-6.5,32,13);
 p.nominalBounds = new cjs.Rectangle(-22.5,-22,45,44);
 
 
+(lib.Символ86 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 2
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AiTBOQgRgDgOgKQgOgKgIgQQgJgRAAgWQAAgVAJgRQAIgQAOgKQAOgKARgDQARgDARADQARADAOAKQAOAKAIAQQAJARAAAVQAAAWgJARQgIAQgOAKQgOAKgRADQgJABgIAAIgRgBgAiVgkQgIAFgGAJQgFAJAAANQAAANAFAKQAGAJAIAFQAJAEAKAAQAKAAAJgEQAIgFAGgJQAGgKAAgNQAAgNgGgJQgGgJgIgFQgJgEgKAAQgKAAgJAEgAGHBIQgOgGgIgMQgJgMAAgRIAAhlIATAAIASAAIAABkQABAHADAEQADAEAGACIALACQAGAAAFgCQAGgCADgEQADgEAAgHIAAhkIAUAAIASAAIAABlQAAARgIAMQgJAMgOAGQgOAGgQAAQgQAAgOgGgAAHBIQgMgGgJgMQgJgMAAgRIAAhlIATAAIARAAIAABkQAAAHADAEQAEAEAFACQAFACAGAAQAGAAAGgCQAFgCADgEQAEgEAAgHIAAhkIATAAIATAAIAABlQAAARgJAMQgJAMgOAGQgNAGgRAAQgQAAgNgGgApwBIQgOgGgJgMQgIgMgBgRIAAhlIATAAIATAAIAABkQAAAHAEAEQADAEAFACQAGACAGAAQAGAAAFgCQAFgCADgEQAEgEAAgHIAAhkIATAAIATAAIAABlQAAARgJAMQgIAMgOAGQgOAGgQAAQgQAAgOgGgAEnBIQgHgFAAgKQAAgJAHgFQAGgGAJAAQAJAAAGAGQAHAFAAAJQAAAKgHAFQgGAFgJABQgJgBgGgFgAnGBJQgOgFgLgKQgMgKgGgOQgHgPAAgTQAAgSAHgPQAGgPAMgKQALgKAOgFQAOgFAPAAQAMAAAMAEQALADALAHQAKAHAHALQAHALACAQIgTAAIgUAAQgEgMgIgFQgJgGgMAAQgMABgJAFQgIAFgFAKQgEAJgBAMQABALAEAJQAFAKAIAGQAJAGAMAAQAMAAAJgGQAKgHADgMIATAAIAUAAQgCAQgHAMQgHAMgLAHQgKAHgMAEQgMADgMAAQgPAAgOgFgAJqBMIgJgTIg9AAIgJATIgmAAIAAgFIBFiVIARAAIBGCVIAAAFgAJUAXIgRgmIgSAmIAjAAgACIBMIAAiYIA6AAQAVAAAQAJQAPAIAJAOQAJANADARQAEAPgEAQQgDAQgJAOQgJANgPAJQgQAIgVAAgACvAoIATAAQAMAAAIgGQAIgGAEgJQAEgJAAgKQAAgJgEgKQgEgJgIgGQgIgGgMAAIgTAAgAkTBMIgvAAIAAiYIAUAAIAUAAIAAAgIAAAUIAAANIAAALIAAAPIAAAaIA3AAIAAARIAAASIgwAAg");
+	this.shape.setTransform(0.2,-0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-65.5,-8.5,131.5,16);
+
+
 (lib.Символ55_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1536,6 +1564,28 @@ p.nominalBounds = new cjs.Rectangle(-22.5,-22,45,44);
 p.nominalBounds = new cjs.Rectangle(-82.5,-71,165,142);
 
 
+(lib.Символ85_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.Символ86();
+	this.instance.parent = this;
+	this.instance.setTransform(120,37);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// Слой 2
+	this.instance_1 = new lib.Символ105();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(124.9,51.3);
+	this.instance_1.alpha = 0.672;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-41.5,1.3,333,74);
+
+
 (lib.Символ56_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1634,7 +1684,7 @@ p.nominalBounds = new cjs.Rectangle(-92.7,-49.4,185.6,90.2);
 p.nominalBounds = new cjs.Rectangle(-80,-558.3,141.6,1156.3);
 
 
-(lib.Символ86 = function(mode,startPosition,loop) {
+(lib.Символ86_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
@@ -1664,13 +1714,13 @@ p.nominalBounds = new cjs.Rectangle(-133.4,-36.1,268.8,63.2);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(19).call(this.frame_19).wait(1));
 
 	// Слой 5
-	this.instance = new lib.Символ86();
+	this.instance = new lib.Символ86_1();
 	this.instance.parent = this;
 	this.instance.setTransform(-2.9,264.8);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10).to({_off:false},0).to({y:228.7,alpha:1},9,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10).to({_off:false},0).to({y:205.7,alpha:1},9,cjs.Ease.get(1)).wait(1));
 
 	// Слой 6
 	this.instance_1 = new lib.Символ94();
@@ -2051,6 +2101,13 @@ p.nominalBounds = new cjs.Rectangle(-284.2,-491.5,568.4,798.5);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Слой 3
+	this.instance = new lib.Символ85_1();
+	this.instance.parent = this;
+	this.instance.setTransform(30.6,542.7);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// Слой 3
 	this.main = new lib.Символ65();
 	this.main.parent = this;
 	this.main.setTransform(166.2,300.7);
@@ -2058,7 +2115,7 @@ p.nominalBounds = new cjs.Rectangle(-284.2,-491.5,568.4,798.5);
 	this.timeline.addTween(cjs.Tween.get(this.main).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(32,109.2,568.4,798.5);
+p.nominalBounds = new cjs.Rectangle(32,109.2,568.4,808.8);
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 var lib, images, createjs, ss;
