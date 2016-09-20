@@ -14,11 +14,12 @@
 <title>1</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="1.js?1473430079330"></script>
+<script src="1.js?1474373296984"></script>
 <script>
 var canvas, stage, exportRoot;
 function init() {
 	canvas = document.getElementById("canvas");
+	createjs.MotionGuidePlugin.install();
 	images = images||{};
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", handleFileLoad);

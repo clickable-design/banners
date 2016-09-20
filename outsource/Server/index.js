@@ -10,10 +10,10 @@ lib.properties = {
 	color: "#43BA82",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/button.png?1473860911612", id:"button"},
-		{src:"images/cloudcomputing.png?1473860911612", id:"cloudcomputing"},
-		{src:"images/logo_ru.png?1473860911612", id:"logo_ru"},
-		{src:"images/w256h2561380453915MouseOptions256x25632.png?1473860911612", id:"w256h2561380453915MouseOptions256x25632"}
+		{src:"images/button.png?1474371955626", id:"button"},
+		{src:"images/cloudcomputing.png?1474371955626", id:"cloudcomputing"},
+		{src:"images/logo_ru.png?1474371955626", id:"logo_ru"},
+		{src:"images/w256h2561380453915MouseOptions256x25632.png?1474371955626", id:"w256h2561380453915MouseOptions256x25632"}
 	]
 };
 
@@ -2240,7 +2240,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,205.6,61.5);
 	this.instance.setTransform(89.8,325.3,1,1,0,0,0,102.8,30.8);
 	new cjs.ButtonHelper(this.instance, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(97));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(162));
 
 	// Слой 3
 	this.instance_1 = new lib.Символ36();
@@ -2249,7 +2249,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,205.6,61.5);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(27).to({_off:false},0).to({alpha:1},3).wait(63).to({alpha:0},3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(92).to({_off:false},0).to({alpha:1},3).wait(63).to({alpha:0},3).wait(1));
 
 	// Слой 4
 	this.instance_2 = new lib.Символ43();
@@ -2257,35 +2257,35 @@ p.nominalBounds = new cjs.Rectangle(0,0,205.6,61.5);
 	this.instance_2.setTransform(90.6,-71.8,1,1,0,0,0,143,37.2);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(27).to({_off:false},0).to({x:97.1,y:25.7},3).wait(63).to({x:90.6,y:-71.8},3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(92).to({_off:false},0).to({x:97.1,y:25.7},3).wait(63).to({x:90.6,y:-71.8},3).wait(1));
 
 	// Слой 2 - копия
 	this.instance_3 = new lib.Символ35();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(144,33.6,1,1,0,0,0,46.7,5.7);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(13).to({regX:46.8,scaleX:1.23,scaleY:1.23,x:144.1},3).to({regX:46.7,scaleX:1,scaleY:1,x:144},6).to({alpha:0},5).to({_off:true},1).wait(69));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(30).to({regX:46.8,scaleX:1.23,scaleY:1.23,x:144.1},13).to({regX:46.7,scaleX:1,scaleY:1,x:144},5).wait(39).to({alpha:0},5).wait(70));
 
 	// Слой 1 - копия
 	this.instance_4 = new lib.Символ34();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(30.9,33.6,1,1,0,0,0,40,5.7);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(9).to({scaleX:1.21,scaleY:1.21},4).to({scaleX:1,scaleY:1},4).wait(5).to({alpha:0},5).to({_off:true},1).wait(69));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(21).to({scaleX:1.21,scaleY:1.21},9).to({scaleX:1,scaleY:1},14).wait(43).to({alpha:0},5).wait(70));
 
 	// Слой 2
 	this.instance_5 = new lib.Символ33();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(151,9.1,1,1,0,0,0,39,5.7);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(5).to({scaleX:1.23,scaleY:1.23},4).to({scaleX:1,scaleY:1},5).wait(8).to({alpha:0},5).to({_off:true},1).wait(69));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(10).to({scaleX:1.23,scaleY:1.23},11).to({scaleX:1,scaleY:1},10).wait(56).to({alpha:0},5).wait(70));
 
 	// Слой 1
 	this.instance_6 = new lib.Символ32();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(43.9,7.3,1,1,0,0,0,54.4,7.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({scaleX:1.2,scaleY:1.2},5).to({scaleX:1,scaleY:1},5).wait(12).to({alpha:0},5).to({_off:true},1).wait(69));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({scaleX:1.2,scaleY:1.2},10).to({scaleX:1,scaleY:1},12).wait(65).to({alpha:0},5).wait(70));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-18,-0.2,215.8,357.8);
@@ -3164,7 +3164,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,441.8,482.4);
 		    {
 			    _this.ser.gotoAndPlay(2);
 			    _this.txt.gotoAndPlay(2);
-				_this.cir.gotoAndPlay(2);
+				_this.cir.gotoAndPlay(1);
 		    }
 		
 		stage.canvas.onmouseout = fl_MouseOutHandler_2;
@@ -3174,7 +3174,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,441.8,482.4);
 		    {
 			    _this.ser.gotoAndPlay(1);
 			    _this.txt.gotoAndPlay(1);
-				_this.cir.gotoAndPlay(1);
+				_this.cir.gotoAndPlay(5);
 		    }
 		
 			
