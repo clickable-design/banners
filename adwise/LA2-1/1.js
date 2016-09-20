@@ -10,30 +10,30 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/b5dd_03.jpg?1473430079067", id:"b5dd_03"},
-		{src:"images/b5dd_07.jpg?1473430079067", id:"b5dd_07"},
-		{src:"images/back.jpg?1473430079067", id:"back"},
-		{src:"images/image52.jpg?1473430079067", id:"image52"},
-		{src:"images/image58.jpg?1473430079067", id:"image58"},
-		{src:"images/image60.jpg?1473430079067", id:"image60"},
-		{src:"images/image62.jpg?1473430079067", id:"image62"},
-		{src:"images/image64.jpg?1473430079067", id:"image64"},
-		{src:"images/logo.png?1473430079067", id:"logo"},
-		{src:"images/u3rez_03.png?1473430079067", id:"u3rez_03"},
-		{src:"images/u3rez_06.png?1473430079067", id:"u3rez_06"},
-		{src:"images/u3rez_09.png?1473430079067", id:"u3rez_09"},
-		{src:"images/u3rez_12.png?1473430079067", id:"u3rez_12"},
-		{src:"images/u3rez_16.png?1473430079067", id:"u3rez_16"},
-		{src:"images/u3rez_19.png?1473430079067", id:"u3rez_19"},
-		{src:"images/u3rez_24.png?1473430079067", id:"u3rez_24"},
-		{src:"images/u3rez_26.png?1473430079067", id:"u3rez_26"},
-		{src:"images/u3rez_30.png?1473430079067", id:"u3rez_30"},
-		{src:"images/u3rez_34.png?1473430079067", id:"u3rez_34"},
-		{src:"images/u3rez_38.png?1473430079067", id:"u3rez_38"},
-		{src:"images/u3rez_42.png?1473430079067", id:"u3rez_42"},
-		{src:"images/u3rez_47.png?1473430079067", id:"u3rez_47"},
-		{src:"images/u3rez_50.png?1473430079067", id:"u3rez_50"},
-		{src:"images/u3rez_55.png?1473430079067", id:"u3rez_55"}
+		{src:"images/b5dd_03.jpg?1474373296743", id:"b5dd_03"},
+		{src:"images/b5dd_07.jpg?1474373296743", id:"b5dd_07"},
+		{src:"images/back.jpg?1474373296743", id:"back"},
+		{src:"images/image52.jpg?1474373296743", id:"image52"},
+		{src:"images/image58.jpg?1474373296743", id:"image58"},
+		{src:"images/image60.jpg?1474373296743", id:"image60"},
+		{src:"images/image62.jpg?1474373296743", id:"image62"},
+		{src:"images/image64.jpg?1474373296743", id:"image64"},
+		{src:"images/logo.png?1474373296743", id:"logo"},
+		{src:"images/u3rez_03.png?1474373296743", id:"u3rez_03"},
+		{src:"images/u3rez_06.png?1474373296743", id:"u3rez_06"},
+		{src:"images/u3rez_09.png?1474373296743", id:"u3rez_09"},
+		{src:"images/u3rez_12.png?1474373296743", id:"u3rez_12"},
+		{src:"images/u3rez_16.png?1474373296743", id:"u3rez_16"},
+		{src:"images/u3rez_19.png?1474373296743", id:"u3rez_19"},
+		{src:"images/u3rez_24.png?1474373296743", id:"u3rez_24"},
+		{src:"images/u3rez_26.png?1474373296743", id:"u3rez_26"},
+		{src:"images/u3rez_30.png?1474373296743", id:"u3rez_30"},
+		{src:"images/u3rez_34.png?1474373296743", id:"u3rez_34"},
+		{src:"images/u3rez_38.png?1474373296743", id:"u3rez_38"},
+		{src:"images/u3rez_42.png?1474373296743", id:"u3rez_42"},
+		{src:"images/u3rez_47.png?1474373296743", id:"u3rez_47"},
+		{src:"images/u3rez_50.png?1474373296743", id:"u3rez_50"},
+		{src:"images/u3rez_55.png?1474373296743", id:"u3rez_55"}
 	]
 };
 
@@ -2035,6 +2035,20 @@ p.nominalBounds = new cjs.Rectangle(-24.3,-24.3,48.7,48.7);
 p.nominalBounds = new cjs.Rectangle(-50.4,-28.5,106,77);
 
 
+(lib.Символ83 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Слой 1
+	this.instance = new lib.Символ53();
+	this.instance.parent = this;
+	this.instance.setTransform(23.4,23.4,1,1,0,0,0,23.4,23.4);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({guide:{path:[23.6,23.4,22.8,23.5,22,22.8,20.9,22,20.2,20.5,10.7,0.9,-14.4,-13.9,-20.9,-17.6,-25.1,-18.7,-28.6,-19.5,-35,-19.7,-39.3,-19.8,-41.7,-19.7,-45.4,-19.6,-48.3,-18.9,-51.8,-18,-54.5,-16.2,-57.5,-14.2,-59,-11.4,-60.2,-9.2,-60.7,-6.2,-61,-4.4,-61.2,-0.7,-61.5,5.1,-61.8,10.9,-62,15.7,-61.7,18.3,-61.1,22.4,-59.2,25.1,-56.9,28.2,-52.4,29.9,-49.4,31.1,-44,32,-29.2,34.6,-21.7,35.7,-9.3,37.5,0.6,38.3,6.6,38.8,10.6,38.5,16.1,38.2,20.3,36.5,24.2,34.9,29.7,30.6,37.2,24.6,44.6,17.6,46.7,15.6,50.7,11.9,54.3,8.5,57.1,6.3,62.3,2.2,69.6,-1.6,73.8,-3.9,83,-8.1,89.1,-10.9,92.5,-11.7,99.3,-13.3,106.4,-11,113.4,-8.6,117.8,-3.2,122.3,2.2,123.3,9.6,124.3,16.7,121.4,23.1,118.3,30.1,110.8,35.6,105.3,39.6,96,43.8,90.7,46.2,87.5,46.9,82.9,48,76.1,47.5,65.9,47,55.9,44.6,44.1,41.7,40,35.6]}},59).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,46.8,46.8);
+
+
 (lib.Символ59 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -2441,6 +2455,7 @@ p.nominalBounds = new cjs.Rectangle(-15.4,11.3,931,501.7);
 		
 		var _this = this;
 		
+		_this.kkkkk.visible=true;
 		_this.kur.visible=false;
 		_this.per.visible=false;
 		
@@ -2453,6 +2468,7 @@ p.nominalBounds = new cjs.Rectangle(-15.4,11.3,931,501.7);
 				_this.per.visible=true;
 				_this.fon.ma.visible=true;
 				_this.fon.wa.visible=true;
+				_this.kkkkk.visible=false;
 		
 		
 		    }
@@ -2467,12 +2483,20 @@ p.nominalBounds = new cjs.Rectangle(-15.4,11.3,931,501.7);
 				_this.per.visible=false;
 				_this.fon.ma.visible=false;
 				_this.fon.wa.visible=false;
+				_this.kkkkk.visible=true;
 		
 		    }
 	}
 
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// Слой 6
+	this.kkkkk = new lib.Символ83();
+	this.kkkkk.parent = this;
+	this.kkkkk.setTransform(320.5,153,1,1,0,0,0,23.4,23.4);
+
+	this.timeline.addTween(cjs.Tween.get(this.kkkkk).wait(1));
 
 	// Слой 7
 	this.txt = new lib.Символ59();
