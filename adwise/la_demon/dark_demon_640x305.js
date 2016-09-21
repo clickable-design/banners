@@ -9,15 +9,15 @@ lib.properties = {
 	fps: 30,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/bg_d.jpg?1474448709983", id:"bg_d"},
-		{src:"images/cross.png?1474448709983", id:"cross"},
-		{src:"images/dds3.png?1474448709983", id:"dds3"},
-		{src:"images/dede3.png?1474448709983", id:"dede3"},
-		{src:"images/dvfdv3.png?1474448709983", id:"dvfdv3"},
-		{src:"images/f3f3.png?1474448709983", id:"f3f3"},
-		{src:"images/haed.png?1474448709983", id:"haed"},
-		{src:"images/O16.png?1474448709983", id:"O16"},
-		{src:"images/O6.png?1474448709983", id:"O6"}
+		{src:"images/bg_d.jpg?1474456745337", id:"bg_d"},
+		{src:"images/cross.png?1474456745337", id:"cross"},
+		{src:"images/dds3.png?1474456745337", id:"dds3"},
+		{src:"images/dede3.png?1474456745337", id:"dede3"},
+		{src:"images/dvfdv3.png?1474456745337", id:"dvfdv3"},
+		{src:"images/f3f3.png?1474456745337", id:"f3f3"},
+		{src:"images/haed.png?1474456745337", id:"haed"},
+		{src:"images/O16.png?1474456745337", id:"O16"},
+		{src:"images/O6.png?1474456745337", id:"O6"}
 	]
 };
 
@@ -1288,12 +1288,12 @@ p.nominalBounds = new cjs.Rectangle(-69.4,-63.6,145,130);
 
 	// Слой 1
 	this.m1 = new lib.Символ18();
-	this.m1.setTransform(0,0,1,1,0,0,0,48.5,48.5);
+	this.m1.setTransform(80,-10,1,1,0,0,0,48.5,48.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.m1).to({y:14.6},19,cjs.Ease.get(-1)).to({y:30},20,cjs.Ease.get(1)).to({y:15.2},20,cjs.Ease.get(-1)).to({y:0},20,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.m1).to({x:-106.1},24,cjs.Ease.get(-1)).to({x:-300},25,cjs.Ease.get(1)).to({x:-110},25,cjs.Ease.get(-1)).to({x:80},25,cjs.Ease.get(1)).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-48.5,-48.5,97,97);
+p.nominalBounds = new cjs.Rectangle(31.5,-58.5,97,97);
 
 
 (lib.Символ61 = function(mode,startPosition,loop) {
@@ -1535,10 +1535,10 @@ p.nominalBounds = new cjs.Rectangle(80.4,-36.4,316.3,360);
 	this.instance = new lib.Символ66();
 	this.instance.setTransform(-14,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:0.2},9,cjs.Ease.get(-1)).to({x:16},10,cjs.Ease.get(1)).to({x:1},10,cjs.Ease.get(-1)).to({x:-14},10,cjs.Ease.get(1)).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:14.2},9,cjs.Ease.get(-1)).to({y:30},10,cjs.Ease.get(1)).to({y:15},10,cjs.Ease.get(-1)).to({y:0},10,cjs.Ease.get(1)).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-62.5,-48.5,97,97);
+p.nominalBounds = new cjs.Rectangle(17.5,-58.5,97,97);
 
 
 (lib.Символ20 = function(mode,startPosition,loop) {
@@ -1565,7 +1565,7 @@ p.nominalBounds = new cjs.Rectangle(-62.5,-48.5,97,97);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.m2}]},1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-62.5,-48.5,97,97);
+p.nominalBounds = new cjs.Rectangle(17.5,-58.5,97,97);
 
 
 (lib.Символ13 = function(mode,startPosition,loop) {
