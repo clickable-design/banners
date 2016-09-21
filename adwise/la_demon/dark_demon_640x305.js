@@ -9,15 +9,15 @@ lib.properties = {
 	fps: 30,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/bg_d.jpg?1474456745337", id:"bg_d"},
-		{src:"images/cross.png?1474456745337", id:"cross"},
-		{src:"images/dds3.png?1474456745337", id:"dds3"},
-		{src:"images/dede3.png?1474456745337", id:"dede3"},
-		{src:"images/dvfdv3.png?1474456745337", id:"dvfdv3"},
-		{src:"images/f3f3.png?1474456745337", id:"f3f3"},
-		{src:"images/haed.png?1474456745337", id:"haed"},
-		{src:"images/O16.png?1474456745337", id:"O16"},
-		{src:"images/O6.png?1474456745337", id:"O6"}
+		{src:"images/bg_d.jpg?1474458909545", id:"bg_d"},
+		{src:"images/cross.png?1474458909545", id:"cross"},
+		{src:"images/dds3.png?1474458909545", id:"dds3"},
+		{src:"images/dede3.png?1474458909545", id:"dede3"},
+		{src:"images/dvfdv3.png?1474458909545", id:"dvfdv3"},
+		{src:"images/f3f3.png?1474458909545", id:"f3f3"},
+		{src:"images/haed.png?1474458909545", id:"haed"},
+		{src:"images/O16.png?1474458909545", id:"O16"},
+		{src:"images/O61.png?1474458909545", id:"O61"}
 	]
 };
 
@@ -75,8 +75,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,142,134);
 p.nominalBounds = new cjs.Rectangle(0,0,97,97);
 
 
-(lib.O6 = function() {
-	this.initialize(img.O6);
+(lib.O61 = function() {
+	this.initialize(img.O61);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,97,97);
 
@@ -191,7 +191,7 @@ p.nominalBounds = new cjs.Rectangle(-77.8,-35.3,155.7,70.7);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой 1
-	this.instance = new lib.O6();
+	this.instance = new lib.O61();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
