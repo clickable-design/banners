@@ -9,25 +9,25 @@ lib.properties = {
 	fps: 30,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/fonjpg.jpg?1473947709134", id:"fonjpg"},
-		{src:"images/loa2_logo.png?1473947709134", id:"loa2_logo"},
-		{src:"images/mouse.png?1473947709134", id:"mouse"},
-		{src:"images/shkala.png?1473947709134", id:"shkala"},
-		{src:"images/smoke2.png?1473947709134", id:"smoke2"},
-		{src:"images/stone.png?1473947709134", id:"stone"},
-		{src:"images/stone2.png?1473947709134", id:"stone2"},
-		{src:"images/stone3.png?1473947709134", id:"stone3"},
-		{src:"images/stone5.png?1473947709134", id:"stone5"},
-		{src:"images/stone6.png?1473947709134", id:"stone6"},
-		{src:"images/stone7.png?1473947709134", id:"stone7"},
-		{src:"images/stone8.png?1473947709134", id:"stone8"},
-		{src:"images/stone9.png?1473947709134", id:"stone9"},
-		{src:"images/tip_03.png?1473947709134", id:"tip_03"},
-		{src:"images/tip_05.png?1473947709134", id:"tip_05"},
-		{src:"images/tip_09.png?1473947709134", id:"tip_09"},
-		{src:"images/tip_11.png?1473947709134", id:"tip_11"},
-		{src:"images/tip_15.png?1473947709134", id:"tip_15"},
-		{src:"images/tip_22.png?1473947709134", id:"tip_22"}
+		{src:"images/fonjpg.jpg?1474449009222", id:"fonjpg"},
+		{src:"images/loa2_logo.png?1474449009222", id:"loa2_logo"},
+		{src:"images/mouse.png?1474449009222", id:"mouse"},
+		{src:"images/shkala.png?1474449009222", id:"shkala"},
+		{src:"images/smoke2.png?1474449009222", id:"smoke2"},
+		{src:"images/stone.png?1474449009222", id:"stone"},
+		{src:"images/stone2.png?1474449009222", id:"stone2"},
+		{src:"images/stone3.png?1474449009222", id:"stone3"},
+		{src:"images/stone5.png?1474449009222", id:"stone5"},
+		{src:"images/stone6.png?1474449009222", id:"stone6"},
+		{src:"images/stone7.png?1474449009222", id:"stone7"},
+		{src:"images/stone8.png?1474449009222", id:"stone8"},
+		{src:"images/stone9.png?1474449009222", id:"stone9"},
+		{src:"images/tip_03.png?1474449009222", id:"tip_03"},
+		{src:"images/tip_05.png?1474449009222", id:"tip_05"},
+		{src:"images/tip_09.png?1474449009222", id:"tip_09"},
+		{src:"images/tip_11.png?1474449009222", id:"tip_11"},
+		{src:"images/tip_15.png?1474449009222", id:"tip_15"},
+		{src:"images/tip_22.png?1474449009222", id:"tip_22"}
 	]
 };
 
@@ -1358,6 +1358,55 @@ p.nominalBounds = new cjs.Rectangle(26,217.9,91.7,38.2);
 p.nominalBounds = new cjs.Rectangle(80.1,-22.8,105.7,53.7);
 
 
+(lib.Символ76 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_1 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
+	// Слой 1
+	this.instance = new lib.Символ42();
+	this.instance.setTransform(0.3,0.7,1.479,1.479,0,0,0,28.2,13.2);
+	this.instance._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = null;
+
+
+(lib.Символ75 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_1 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
+	// Слой 1
+	this.instance = new lib.Символ42();
+	this.instance.setTransform(0.3,0.7,1.479,1.479,0,0,0,28.2,13.2);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},1).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-92.8,-35,185.7,70.1);
+
+
 (lib.Символ50 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1709,31 +1758,29 @@ p.nominalBounds = new cjs.Rectangle(0,0.1,67.1,27.9);
 		document.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-		window.open(clickTAG, "_blank");
+			window.open(clickTAG, "_blank");
 		}
 		
 		stage.canvas.addEventListener("mouseover", fl_Clickover.bind(this));
 		
-		function fl_Clickover()
-		{
-		    this.stone.gotoAndPlay(95);
+		function fl_Clickover() {    
+			this.stone.gotoAndPlay(95);
 			this.text.gotoAndPlay(1);
 			this.fon.gotoAndStop(0);
 			this.mouse.gotoAndPlay(1);
-			
-		  
+			this.movieClip_2.gotoAndStop(1);  
+			this.movieClip_1.gotoAndStop(1);
 		}
 		
 		stage.canvas.addEventListener("mouseout", fl_Clickout.bind(this));
 		
-		function fl_Clickout()
-		{
-		    this.stone.gotoAndPlay(120);
+		function fl_Clickout() {    
+			this.stone.gotoAndPlay(120);
 			this.text.gotoAndPlay(15);
 			this.fon.gotoAndStop(0);
 			this.mouse.gotoAndPlay(10);
-			
-		  
+			this.movieClip_2.gotoAndStop(0);  
+			this.movieClip_1.gotoAndStop(0);  
 		}
 		
 		
@@ -1769,8 +1816,8 @@ p.nominalBounds = new cjs.Rectangle(0,0.1,67.1,27.9);
 	this.timeline.addTween(cjs.Tween.get(this.tip).wait(1));
 
 	// pricel
-	this.movieClip_1 = new lib.Символ42();
-	this.movieClip_1.setTransform(250.5,269.1,1.479,1.479,0,0,0,28.2,13.2);
+	this.movieClip_1 = new lib.Символ76();
+	this.movieClip_1.setTransform(-177.7,268.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_1).wait(1));
 
@@ -1779,6 +1826,12 @@ p.nominalBounds = new cjs.Rectangle(0,0.1,67.1,27.9);
 	this.stone.setTransform(382.1,81.8,1,1,0,0,0,293.6,151.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.stone).wait(1));
+
+	// Слой 1
+	this.movieClip_2 = new lib.Символ75();
+	this.movieClip_2.setTransform(267.2,239.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.movieClip_2).wait(1));
 
 	// logo
 	this.instance = new lib.Символ19_1();
