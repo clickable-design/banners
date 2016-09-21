@@ -9,25 +9,24 @@ lib.properties = {
 	fps: 30,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/fonjpg.jpg?1474458494279", id:"fonjpg"},
-		{src:"images/loa2_logo.png?1474458494279", id:"loa2_logo"},
-		{src:"images/mouse.png?1474458494279", id:"mouse"},
-		{src:"images/shkala.png?1474458494279", id:"shkala"},
-		{src:"images/smoke2.png?1474458494279", id:"smoke2"},
-		{src:"images/stone.png?1474458494279", id:"stone"},
-		{src:"images/stone2.png?1474458494279", id:"stone2"},
-		{src:"images/stone3.png?1474458494279", id:"stone3"},
-		{src:"images/stone5.png?1474458494279", id:"stone5"},
-		{src:"images/stone6.png?1474458494279", id:"stone6"},
-		{src:"images/stone7.png?1474458494279", id:"stone7"},
-		{src:"images/stone8.png?1474458494279", id:"stone8"},
-		{src:"images/stone9.png?1474458494279", id:"stone9"},
-		{src:"images/tip_03.png?1474458494279", id:"tip_03"},
-		{src:"images/tip_05.png?1474458494279", id:"tip_05"},
-		{src:"images/tip_09.png?1474458494279", id:"tip_09"},
-		{src:"images/tip_11.png?1474458494279", id:"tip_11"},
-		{src:"images/tip_15.png?1474458494279", id:"tip_15"},
-		{src:"images/tip_22.png?1474458494279", id:"tip_22"}
+		{src:"images/fonjpg.jpg?1474460216540", id:"fonjpg"},
+		{src:"images/mouse.png?1474460216540", id:"mouse"},
+		{src:"images/shkala.png?1474460216540", id:"shkala"},
+		{src:"images/smoke2.png?1474460216540", id:"smoke2"},
+		{src:"images/stone.png?1474460216540", id:"stone"},
+		{src:"images/stone2.png?1474460216540", id:"stone2"},
+		{src:"images/stone3.png?1474460216540", id:"stone3"},
+		{src:"images/stone5.png?1474460216540", id:"stone5"},
+		{src:"images/stone6.png?1474460216540", id:"stone6"},
+		{src:"images/stone7.png?1474460216540", id:"stone7"},
+		{src:"images/stone8.png?1474460216540", id:"stone8"},
+		{src:"images/stone9.png?1474460216540", id:"stone9"},
+		{src:"images/tip_03.png?1474460216540", id:"tip_03"},
+		{src:"images/tip_05.png?1474460216540", id:"tip_05"},
+		{src:"images/tip_09.png?1474460216540", id:"tip_09"},
+		{src:"images/tip_11.png?1474460216540", id:"tip_11"},
+		{src:"images/tip_15.png?1474460216540", id:"tip_15"},
+		{src:"images/tip_22.png?1474460216540", id:"tip_22"}
 	]
 };
 
@@ -41,12 +40,6 @@ lib.properties = {
 	this.initialize(img.fonjpg);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,741,417);
-
-
-(lib.loa2_logo = function() {
-	this.initialize(img.loa2_logo);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,300,135);
 
 
 (lib.mouse = function() {
@@ -632,19 +625,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,51.1,17.5);
 p.nominalBounds = new cjs.Rectangle(0,0,61.1,19.9);
 
 
-(lib.Анимация3 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance = new lib.loa2_logo();
-	this.instance.setTransform(-74.8,-33.6,0.499,0.499);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-74.8,-33.6,149.6,67.4);
-
-
 (lib.Symbol = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1049,19 +1029,6 @@ p.nominalBounds = new cjs.Rectangle(-11.4,-17.3,22.9,34.7);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-41.5,-16.7,83,33.5);
-
-
-(lib.Символ19_1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Слой 1
-	this.instance = new lib.Анимация3("synched",0);
-	this.instance.setTransform(74.8,33.7);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,149.7,67.4);
 
 
 (lib.Символ16 = function(mode,startPosition,loop) {
@@ -1845,17 +1812,11 @@ p.nominalBounds = new cjs.Rectangle(0,0.1,67.1,27.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_2).wait(1));
 
-	// logo
-	this.instance = new lib.Символ19_1();
-	this.instance.setTransform(491.5,239.3);
+	// Слой 10
+	this.instance = new lib.Символ52();
+	this.instance.setTransform(558,157.6,1,1,0,0,0,600,88.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	// Слой 10
-	this.instance_1 = new lib.Символ52();
-	this.instance_1.setTransform(558,157.6,1,1,0,0,0,600,88.7);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// fon
 	this.fon = new lib.Символ28();
