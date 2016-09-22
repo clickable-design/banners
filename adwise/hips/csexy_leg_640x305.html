@@ -9,19 +9,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>golem</title>
+<title>csexy_leg_640x305</title>
 <!-- write your code here -->
 
 
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="golem.js?1473867592337"></script>
+<script src="csexy_leg_640x305.js?1474537878118"></script>
 <script>
 var canvas, stage, exportRoot;
 function init() {
 	// --- write your JS code here ---
 	
-	createjs.MotionGuidePlugin.install();
-
 	canvas = document.getElementById("canvas");
 	images = images||{};
 
@@ -36,11 +34,12 @@ function handleFileLoad(evt) {
 }
 
 function handleComplete(evt) {
-	exportRoot = new lib.golem();
+	exportRoot = new lib.csexy_leg_640x305();
 
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);
 	stage.update();
+	stage.enableMouseOver();
 
 	createjs.Ticker.setFPS(lib.properties.fps);
 	createjs.Ticker.addEventListener("tick", stage);
