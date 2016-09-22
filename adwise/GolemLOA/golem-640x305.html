@@ -9,12 +9,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>golem</title>
+<title>golem-640x305</title>
 <!-- write your code here -->
 
 
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="golem.js?1473867592337"></script>
+<script src="golem-640x305.js?1474460216761"></script>
 <script>
 var canvas, stage, exportRoot;
 function init() {
@@ -36,7 +36,7 @@ function handleFileLoad(evt) {
 }
 
 function handleComplete(evt) {
-	exportRoot = new lib.golem();
+	exportRoot = new lib.golem640x305();
 
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);
