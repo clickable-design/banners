@@ -483,43 +483,43 @@ p.nominalBounds = new cjs.Rectangle(-69,62,131.6,63.6);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(209).to({_off:false},0).to({alpha:1},16).to({_off:true},49).wait(101));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(206).to({_off:false},0).to({regX:150.9,regY:125.9,x:109.3,y:0,alpha:0.441},8,cjs.Ease.get(-1)).to({regX:151,regY:126,x:0.2,y:0.1,alpha:1},11,cjs.Ease.get(1)).to({_off:true},49).wait(101));
 
 	// Symbol 33
 	this.instance_3 = new lib.Symbol33();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(0.2,0.1,1.016,1.016,0,0,0,151,126);
+	this.instance_3.setTransform(91.2,0.1,1.016,1.016,0,0,0,151,126);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(164).to({_off:false},0).to({alpha:1},16).to({_off:true},45).wait(150));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(161).to({_off:false},0).to({regX:150.9,regY:125.9,x:45.7,y:0,alpha:0.5},9,cjs.Ease.get(-1)).to({regX:151,regY:126,x:0.2,y:0.1,alpha:1},10,cjs.Ease.get(1)).to({_off:true},45).wait(150));
 
 	// Symbol 32
 	this.instance_4 = new lib.Symbol32();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(0.2,0.1,1.016,1.016,0,0,0,151,126);
+	this.instance_4.setTransform(99.4,0.1,1.016,1.016,0,0,0,151,126);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(118).to({_off:false},0).to({alpha:1},16).to({_off:true},46).wait(195));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(115).to({_off:false},0).to({regX:150.9,regY:125.9,x:49.7,y:0,alpha:0.5},9,cjs.Ease.get(-1)).to({regX:151,regY:126,x:0.2,y:0.1,alpha:1},10,cjs.Ease.get(1)).to({_off:true},46).wait(195));
 
 	// Symbol 31
 	this.instance_5 = new lib.Symbol31();
 	this.instance_5.parent = this;
-	this.instance_5.setTransform(-70.5,-90.5,0.517,0.517,0,0,0,149.9,91);
+	this.instance_5.setTransform(23.2,-90.5,0.517,0.517,0,0,0,149.9,91);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(75).to({_off:false},0).to({alpha:1},15).to({_off:true},45).wait(240));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(72).to({_off:false},0).to({regX:149.8,regY:90.9,x:-20.5,alpha:0.461},8,cjs.Ease.get(-1)).to({regX:149.9,regY:91,x:-70.5,alpha:1},10,cjs.Ease.get(1)).to({_off:true},45).wait(240));
 
 	// Symbol 30
 	this.instance_6 = new lib.Symbol30();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(-76.5,-91.2,0.557,0.557,0,0,0,151,125.9);
+	this.instance_6.setTransform(19.1,-91.2,0.557,0.557,0,0,0,151,125.9);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(28).to({_off:false},0).to({alpha:1},16).to({_off:true},46).wait(285));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(25).to({_off:false},0).to({regX:150.8,regY:125.8,x:-28.8,alpha:0.5},9,cjs.Ease.get(-1)).to({regX:151,regY:125.9,x:-76.5,alpha:1},10,cjs.Ease.get(1)).to({_off:true},46).wait(285));
 
 	// Symbol 29
 	this.instance_7 = new lib.Symbol29();
@@ -696,25 +696,25 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Agent.png?1493731479012", id:"Agent"},
-		{src:"images/b2ARA_AStunningWaterfront.png?1493731479012", id:"b2ARA_AStunningWaterfront"},
-		{src:"images/b3ARA_NexttoAin.png?1493731479012", id:"b3ARA_NexttoAin"},
-		{src:"images/b4ARA_Spaciousapt.png?1493731479012", id:"b4ARA_Spaciousapt"},
-		{src:"images/b4bARA_Paymentplan.png?1493731479012", id:"b4bARA_Paymentplan"},
-		{src:"images/b4cARA_Movein.png?1493731479012", id:"b4cARA_Movein"},
-		{src:"images/b5ARA_SalesSuite.png?1493731479012", id:"b5ARA_SalesSuite"},
-		{src:"images/b5bARA_FindoutMore.png?1493731479012", id:"b5bARA_FindoutMore"},
-		{src:"images/Bitmap3.png?1493731479012", id:"Bitmap3"},
-		{src:"images/BWlogo.png?1493731479012", id:"BWlogo"},
-		{src:"images/core_logo.jpg?1493731479012", id:"core_logo"},
-		{src:"images/ExclIslandLiving.png?1493731479012", id:"ExclIslandLiving"},
-		{src:"images/Image1.jpg?1493731479012", id:"Image1"},
-		{src:"images/Image2.jpg?1493731479012", id:"Image2"},
-		{src:"images/Image3.jpg?1493731479012", id:"Image3"},
-		{src:"images/Image41.jpg?1493731479012", id:"Image41"},
-		{src:"images/Image42.jpg?1493731479012", id:"Image42"},
-		{src:"images/Image43.jpg?1493731479012", id:"Image43"},
-		{src:"images/Meraaslogo.png?1493731479012", id:"Meraaslogo"}
+		{src:"images/Agent.png?1493733765963", id:"Agent"},
+		{src:"images/b2ARA_AStunningWaterfront.png?1493733765963", id:"b2ARA_AStunningWaterfront"},
+		{src:"images/b3ARA_NexttoAin.png?1493733765963", id:"b3ARA_NexttoAin"},
+		{src:"images/b4ARA_Spaciousapt.png?1493733765963", id:"b4ARA_Spaciousapt"},
+		{src:"images/b4bARA_Paymentplan.png?1493733765964", id:"b4bARA_Paymentplan"},
+		{src:"images/b4cARA_Movein.png?1493733765964", id:"b4cARA_Movein"},
+		{src:"images/b5ARA_SalesSuite.png?1493733765964", id:"b5ARA_SalesSuite"},
+		{src:"images/b5bARA_FindoutMore.png?1493733765964", id:"b5bARA_FindoutMore"},
+		{src:"images/Bitmap3.png?1493733765964", id:"Bitmap3"},
+		{src:"images/BWlogo.png?1493733765964", id:"BWlogo"},
+		{src:"images/core_logo.jpg?1493733765964", id:"core_logo"},
+		{src:"images/ExclIslandLiving.png?1493733765964", id:"ExclIslandLiving"},
+		{src:"images/Image1.jpg?1493733765964", id:"Image1"},
+		{src:"images/Image2.jpg?1493733765964", id:"Image2"},
+		{src:"images/Image3.jpg?1493733765964", id:"Image3"},
+		{src:"images/Image41.jpg?1493733765964", id:"Image41"},
+		{src:"images/Image42.jpg?1493733765964", id:"Image42"},
+		{src:"images/Image43.jpg?1493733765964", id:"Image43"},
+		{src:"images/Meraaslogo.png?1493733765964", id:"Meraaslogo"}
 	],
 	preloads: []
 };
