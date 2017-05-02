@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="ad.size" content="width=240,height=400">
+<title>adsniper_240x400</title>
+
+<script src="https://s0.2mdn.net/ads/studio/cached_libs/easeljs_0.8.1_58add2e69ca7fbe25e8f82a2b5f6a510_min.js"></script>
+<script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenjs_0.6.1_40840f08e9fb382ae9e4a337da542ed5_min.js"></script>
+<script src="js/movieclip-0.8.1.min.js"></script>
+<script src="js/preloadjs-0.6.1.min.js"></script>
+<script src="js/adsniper_240x400.js"></script>
+
+<script>
+var canvas, stage, exportRoot;
+
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib.adsniper_240x400();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+</script>
+</head>
+
+<body onload="init();" style="background-color:#D4D4D4">
+	<canvas id="canvas" width="240" height="400" style="background-color:#FFFFFF"></canvas>
+</body>
+</html>

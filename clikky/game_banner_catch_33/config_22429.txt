@@ -1,0 +1,13 @@
+window.postMessage({
+	key: 'clickky_banner_22429', 
+	title_1: 'СОБИРАЙ ЗВЕЗДЫ', 
+	title_2: 'ПОЛУЧАЙ ПРИЛОЖЕНИЕ', 
+	title_3: 'ВЫ СОБРАЛИ 3 ЗВЕЗДЫ!', 
+	title_4: 'ВАШ ПРИЗ', 
+	button: 'УСТАНОВИТЬ', 
+	icon: 'http://imagestun.com/hosting/kartinki/icon.png', 
+	app_name: 'GAME', 
+	rating: '5', 
+	target_url: 'http://example.com'
+}, '*')
+

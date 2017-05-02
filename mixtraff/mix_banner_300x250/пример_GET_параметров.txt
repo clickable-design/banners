@@ -1,0 +1,14 @@
+Пример
+
+?icon=http://imagestun.com/hosting/kartinki/icon.png&title=Application Nname&company=App Company&age=+3&rating=3,4&target_url=http://example.com
+
+________________________________
+
+В разобраном состоянии
+
+- icon = http://imagestun.com/hosting/kartinki/icon.png
+- title = Application Nname
+- company = App Company
+- age = 3
+- rating = 3,4
+- target_url = http://example.com
