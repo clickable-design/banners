@@ -479,11 +479,11 @@ p.nominalBounds = new cjs.Rectangle(-69,62,131.6,63.6);
 	// Symbol 34
 	this.instance_2 = new lib.Symbol34();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(0.2,0.1,1.016,1.016,0,0,0,151,126);
-	this.instance_2.alpha = 0;
+	this.instance_2.setTransform(109.3,0,1.016,1.016,0,0,0,150.9,125.9);
+	this.instance_2.alpha = 0.441;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(206).to({_off:false},0).to({regX:150.9,regY:125.9,x:109.3,y:0,alpha:0.441},8,cjs.Ease.get(-1)).to({regX:151,regY:126,x:0.2,y:0.1,alpha:1},11,cjs.Ease.get(1)).to({_off:true},49).wait(101));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(206).to({_off:false},0).to({x:57.6,alpha:0.711},9,cjs.Ease.get(-1)).to({regX:151,regY:126,x:0.2,y:0.1,alpha:1},10,cjs.Ease.get(1)).to({_off:true},49).wait(101));
 
 	// Symbol 33
 	this.instance_3 = new lib.Symbol33();
@@ -696,25 +696,25 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Agent.png?1493733765963", id:"Agent"},
-		{src:"images/b2ARA_AStunningWaterfront.png?1493733765963", id:"b2ARA_AStunningWaterfront"},
-		{src:"images/b3ARA_NexttoAin.png?1493733765963", id:"b3ARA_NexttoAin"},
-		{src:"images/b4ARA_Spaciousapt.png?1493733765963", id:"b4ARA_Spaciousapt"},
-		{src:"images/b4bARA_Paymentplan.png?1493733765964", id:"b4bARA_Paymentplan"},
-		{src:"images/b4cARA_Movein.png?1493733765964", id:"b4cARA_Movein"},
-		{src:"images/b5ARA_SalesSuite.png?1493733765964", id:"b5ARA_SalesSuite"},
-		{src:"images/b5bARA_FindoutMore.png?1493733765964", id:"b5bARA_FindoutMore"},
-		{src:"images/Bitmap3.png?1493733765964", id:"Bitmap3"},
-		{src:"images/BWlogo.png?1493733765964", id:"BWlogo"},
-		{src:"images/core_logo.jpg?1493733765964", id:"core_logo"},
-		{src:"images/ExclIslandLiving.png?1493733765964", id:"ExclIslandLiving"},
-		{src:"images/Image1.jpg?1493733765964", id:"Image1"},
-		{src:"images/Image2.jpg?1493733765964", id:"Image2"},
-		{src:"images/Image3.jpg?1493733765964", id:"Image3"},
-		{src:"images/Image41.jpg?1493733765964", id:"Image41"},
-		{src:"images/Image42.jpg?1493733765964", id:"Image42"},
-		{src:"images/Image43.jpg?1493733765964", id:"Image43"},
-		{src:"images/Meraaslogo.png?1493733765964", id:"Meraaslogo"}
+		{src:"images/Agent.png?1493737289105", id:"Agent"},
+		{src:"images/b2ARA_AStunningWaterfront.png?1493737289105", id:"b2ARA_AStunningWaterfront"},
+		{src:"images/b3ARA_NexttoAin.png?1493737289105", id:"b3ARA_NexttoAin"},
+		{src:"images/b4ARA_Spaciousapt.png?1493737289105", id:"b4ARA_Spaciousapt"},
+		{src:"images/b4bARA_Paymentplan.png?1493737289105", id:"b4bARA_Paymentplan"},
+		{src:"images/b4cARA_Movein.png?1493737289105", id:"b4cARA_Movein"},
+		{src:"images/b5ARA_SalesSuite.png?1493737289105", id:"b5ARA_SalesSuite"},
+		{src:"images/b5bARA_FindoutMore.png?1493737289105", id:"b5bARA_FindoutMore"},
+		{src:"images/Bitmap3.png?1493737289105", id:"Bitmap3"},
+		{src:"images/BWlogo.png?1493737289105", id:"BWlogo"},
+		{src:"images/core_logo.jpg?1493737289105", id:"core_logo"},
+		{src:"images/ExclIslandLiving.png?1493737289105", id:"ExclIslandLiving"},
+		{src:"images/Image1.jpg?1493737289105", id:"Image1"},
+		{src:"images/Image2.jpg?1493737289105", id:"Image2"},
+		{src:"images/Image3.jpg?1493737289105", id:"Image3"},
+		{src:"images/Image41.jpg?1493737289105", id:"Image41"},
+		{src:"images/Image42.jpg?1493737289105", id:"Image42"},
+		{src:"images/Image43.jpg?1493737289105", id:"Image43"},
+		{src:"images/Meraaslogo.png?1493737289105", id:"Meraaslogo"}
 	],
 	preloads: []
 };
